@@ -84,7 +84,7 @@ Motivated Applications Development student and software developer seeking opport
 
 ## Experience
 
-### Founder & Lead Developer — StarPath  
+### Founder & Lead Developer : StarPath  
 **Self-Initiated | 2024 – Present**
 
 - Building an AI-powered study platform for university students
@@ -145,7 +145,7 @@ This portfolio is publicly accessible through GitHub Pages.
 
 ---
 
-# Reflection: GitHub Student Account — STAR Method
+# Reflection: GitHub Student Account : STAR Method
 
 ## Situation
 
@@ -185,7 +185,7 @@ I developed a professional portfolio entirely in Markdown and strengthened my un
 
 ---
 
-# Reflection: Mock Interview Video — STAR Method
+# Reflection: Mock Interview Video : STAR Method
 
 ## Situation
 
@@ -205,7 +205,7 @@ The exercise improved my confidence, communication skills, and ability to presen
 
 ---
 
-# Reflection: GitHub Pages — STAR Method
+# Reflection: GitHub Pages : STAR Method
 
 ## Situation
 
