@@ -8,7 +8,7 @@ Cape Town, South Africa
 
 ## Professional Profile
 
-Driven Applications Development student with a strong foundation in Java, Spring Boot, and full-stack development. Founder of **StarPath** - an AI-powered study platform built for South African university students. Experienced peer tutor since age 16, with a deep understanding of how students learn and where they struggle. Passionate about building technology that solves real problems in education.
+Builder and Applications Development student passionate about creating impactful software products. Project Experience in Java, Spring Boot, and full-stack [Javascript] development, with a strong interest in backend systems, cloud and scalability, AI applications, and startup technology. Founder of StarPath, where I manage everything from engineering and architecture to product strategy and execution.
 
 ---
 
@@ -43,12 +43,12 @@ Motivated Applications Development student and edtech founder seeking to apply m
 
 | Category | Skills |
 |---|---|
-| Languages | Java, Python, SQL |
-| Frameworks | Spring Boot, Google ADK |
-| Web | HTML5, CSS3, JavaScript |
-| Tools | Git, GitHub, GCP, JUnit |
+| Backend | Java, Spring Boot, REST APIs, JWT Authentication, SQL |
+| Frontend | HTML5, CSS3, JavaScript |
+| Databases | PostgreSQL, Supabase | MySql
+| Cloud & DevOps | Google Cloud Platform (GCP), AWS (Certified), CI/CD |
+| Tools & Testing | Git, GitHub, JUnit, Maven |
 | Methodologies | Agile, TDD, Scrum |
-
 ---
 
 ### Experience
@@ -167,12 +167,12 @@ I published a live portfolio that enhances my professional visibility and can be
 
 ---
 
+
 ## GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=leeroy-chakanyuka&show_icons=true&theme=default)
+![Leeroy's GitHub Stats](https://github-readme-stats.vercel.app/api?username=leeroy-chakanyuka&show_icons=true&hide_border=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=leeroy-chakanyuka&layout=compact)
-
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=leeroy-chakanyuka&layout=compact&hide_border=true)
 ---
 
 ## Final Thoughts
