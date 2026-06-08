@@ -1,238 +1,137 @@
-# Hi, I'm Leeroy Chakanyuka
+## GitHub Student Account
 
-### Software Developer | Founder @ StarPath | Applications Development Student
+![GitHub Profile Screenshot](Screenshot%202026-04-20%20233051.png)
 
-Cape Town, South Africa  
-240883128@mycput.ac.za  
+**Username:** leeroy-chakanyuka  
+**GitHub Profile:** [github.com/leeroy-chakanyuka](https://github.com/leeroy-chakanyuka)
 
----
+# Leeroy Chakanyuka CV
+Software Developer | Founder @ StarPath | Applications Development Student
 
-## Tech Stack
-
-### Backend & APIs
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge)
-![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
-
-### Frontend
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-
-### Databases & Cloud
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS_Certified-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-
-### DevOps & Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI/CD-222222?style=for-the-badge)
-![JUnit](https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+📍 Cape Town, South Africa  
+📧 240883128@mycput.ac.za  
 
 ---
 
-## Professional Profile
+## 🎯 Career Objective
 
-Builder and Applications Development student passionate about creating impactful software products and scalable backend systems. Experienced in Java, Spring Boot, REST APIs, cloud technologies, and full-stack development, with a growing focus on AI-powered applications and startup technology. Founder of StarPath, where I lead product development, architecture, and technical strategy from concept to execution.
-
----
-
-# Curriculum Vitae
-
-## Personal Details
-
-| | |
-|---|---|
-| **Name** | Leeroy Chakanyuka |
-| **Student Number** | 240883128 |
-| **Email** | 240883128@mycput.ac.za |
-| **Location** | Cape Town, South Africa |
+Motivated ICT Applications Development student and software developer seeking opportunities to apply my skills in backend engineering, cloud technologies, and full-stack development to build impactful software solutions. Passionate about problem-solving, scalable systems, and continuous learning, with hands-on experience founding and building a production AI-powered EdTech platform from the ground up.
 
 ---
 
-## Objective
+## 🎓 Education
 
-Motivated Applications Development student and software developer seeking opportunities to apply my skills in backend engineering, cloud technologies, and full-stack development to build impactful software solutions. Passionate about problem-solving, scalable systems, and continuous growth as both a developer and founder.
-
----
-
-## Education
-
-| Qualification | Institution | Year |
-|---|---|---|
-| Diploma in ICT (Applications Development) | Cape Peninsula University of Technology | 2024 – Present |
+**Cape Peninsula University of Technology (CPUT)**  
+Diploma in ICT Application Development  
+2024 – Present | Cape Town  
 
 ---
 
-## Technical Skills & Technologies
+## 💼 Work Experience
 
-| Category | Skills |
-|---|---|
-| Backend | Java, Spring Boot, REST APIs, JWT Authentication, SQL |
-| Frontend | HTML5, CSS3, JavaScript |
-| Databases | PostgreSQL, MySQL, Supabase |
-| Cloud & DevOps | Google Cloud Platform (GCP), AWS (Certified), CI/CD |
-| Tools & Testing | Git, GitHub, Maven, JUnit |
-| Methodologies | Agile, TDD, Scrum |
+**Founder & Lead Developer – StarPath**  
+Self-Initiated | 2024 – Present | Cape Town  
+- Building an AI-powered adaptive study platform for South African matric and university students  
+- Designed and own the full technical architecture: Spring Boot backend, React/TypeScript frontend, GCP infrastructure  
+- Developed core features including RAG-based AI tutoring, FSRS spaced repetition scheduling, exam playlist generation, and a subscription management system  
+- Leading product development, cloud deployment, and technical strategy from concept to live production  
 
----
+**Peer Tutor**  
+2019 – Present  
+- Provided one-on-one tutoring in mathematics and programming to fellow students since age 16  
+- Developed strong communication and mentoring skills through sustained peer teaching  
+- This experience directly informed the product philosophy behind StarPath  
 
-## Experience
-
-### Founder & Lead Developer : StarPath  
-**Self-Initiated | 2024 – Present**
-
-- Building an AI-powered study platform for university students
-- Managing backend architecture, product development, and technical strategy
-- Developing scalable systems using Java, Spring Boot, PostgreSQL, and cloud technologies
-- Leading product execution from concept to deployment
-
-### Peer Tutor  
-**2019 – Present**
-
-- Provided tutoring in mathematics and programming to peers since age 16
-- Developed strong communication and problem-solving skills through teaching and mentoring
-
-### Student Developer  
-**Cape Peninsula University of Technology | 2024 – Present**
-
-- Developing full-stack applications using Java, Spring Boot, and modern web technologies
-- Applying Agile methodology, TDD, and JUnit testing in software development projects
+**Student Developer**  
+Cape Peninsula University of Technology | 2024 – Present  
+- Developing full-stack applications using Java, Spring Boot, and modern web technologies  
+- Applying Agile methodology, TDD, and JUnit testing across software development projects  
 
 ---
 
-## References
+## 🛠️ Skills
+
+- Java (Spring Boot, REST APIs, JWT Authentication)  
+- JavaScript, TypeScript, React  
+- HTML5, CSS3  
+- SQL (PostgreSQL, MySQL, Supabase)  
+- Google Cloud Platform (Cloud Run, Cloud Storage, Vertex AI)  
+- Git, GitHub, Maven, CI/CD  
+- JUnit (TDD, unit and integration testing)  
+- Agile / Scrum  
+- Systems Design & Architecture  
+- Problem Solving & Technical Communication  
+
+---
+
+## 📁 Projects
+
+- **StarPath** – AI-powered adaptive study platform (Spring Boot, React, GCP, Gemini AI, pgvector)  
+- **ShopSmart** – Barcode-scanning shopping assistant (Vanilla JS, Supabase, ZXing)  
+- **Student Accommodation Portal** – Full-stack university project with JPA, repositories, and Builder pattern (CPUT)  
+- **IntelliJ Plugin** – Auto-generates Spring service layer scaffolding from JPA entity files  
+
+---
+
+## 📋 References
 
 Available on request.
 
 ---
 
-# Mock Interview Video
+## Reflection: Coding My CV in Markdown
 
-[![Mock Interview](https://img.youtube.com/vi/JFJBYjJf9AY/0.jpg)](https://youtube.com/shorts/JFJBYjJf9AY)
+**Situation:**  
+As part of my Project Presentation 3 assessment I was required to build a digital portfolio on GitHub and present my CV using Markdown rather than a traditional word processor like Microsoft Word.
+
+**Task:**  
+I needed to take my existing CV content and restructure it entirely in Markdown, capturing my personal details, career objective, education, work experience, technical skills, projects, and reflections in a clean and professionally formatted document.
+
+**Action:**  
+I studied GitHub Flavoured Markdown (GFM) formatting techniques, including headings with `#`, bold text using `**text**`, bullet lists with `-`, tables using `|`, embedded images and links, and horizontal rules with `---`. I applied these consistently throughout the portfolio to maintain a structured and readable layout.
+
+**Result:**  
+The outcome was a well-structured professional portfolio published directly on GitHub. I deepened my understanding of Markdown as a lightweight formatting tool used widely by developers for documentation, README files, and open-source contribution, a practical skill I will carry forward in my development career.
 
 ---
 
-# GitHub Pages Portfolio
+## 🎥 Mock Interview Video
 
-This portfolio is publicly accessible through GitHub Pages.
+[![Mock Interview Thumbnail](https://img.youtube.com/vi/JFJBYjJf9AY/0.jpg)](https://youtube.com/shorts/JFJBYjJf9AY)
 
-### Live Portfolio
+▶️ [Watch Mock Interview on YouTube](https://youtube.com/shorts/JFJBYjJf9AY)
+
+---
+
+## Reflection: Mock Interview Video Experience
+
+**Situation:**  
+As part of this module's real-world workplace preparation, I was required to record a mock interview to demonstrate professional communication and presentation skills relevant to an Application Development role.
+
+**Task:**  
+I needed to prepare for and record a mock interview, anticipating common technical and behavioural interview questions, structuring my answers clearly, and then embedding the video into my digital portfolio.
+
+**Action:**  
+In addition to the provided practice questions, I independently researched popular interview questions and effective answer frameworks. I practised responses out loud beforehand, chose a quiet and tidy space to record, and filmed the interview. Once recorded, I uploaded the video to YouTube and embedded it into my portfolio using a linked thumbnail in Markdown.
+
+**Result:**  
+The experience was both challenging and valuable. Reviewing the recording helped me identify areas for improvement, including maintaining eye contact with the camera and reducing filler words. Overall, the mock interview built my confidence and made me more aware of how I present myself professionally, preparation I will carry directly into real job applications as I complete my diploma at CPUT.
+
+---
+
+## Reflection: Publishing on GitHub Pages
+
+**Situation:**  
+After building my digital portfolio in a GitHub repository, the final step of the Project Presentation 3 assessment was to deploy it as a live, publicly accessible website using GitHub Pages and submit the link on Blackboard.
+
+**Task:**  
+I needed to enable GitHub Pages on my repository so that my README.md file would be rendered as a real webpage accessible to my lecturer, moderators, and future employers.
+
+**Action:**  
+I navigated to my repository's Settings, selected the Pages section, and set the deployment source to the main branch. After saving the configuration, GitHub automatically generated a public URL. I visited the live link to confirm all sections. my CV, embedded video, and reflections — displayed correctly before submitting on Blackboard.
+
+**Result:**  
+My portfolio was successfully published as a live website at no cost and with no need for external hosting. This experience reinforced my ability to use github as a platform capable of hosting and showcasing developer work; a valuable insight as I enter the ICT industry.
+
+### Live Portfolio  
 ➡️ **[View Portfolio](https://leeroy-chakanyuka.github.io/leeroy-chakanyuka-cv/)**
-
----
-
-# Steps Taken
-
-- Created and configured a GitHub account using my CPUT student email
-- Designed and structured a professional portfolio using GitHub Flavoured Markdown (GFM)
-- Used Git and GitHub for version control and repository management
-- Published the portfolio using GitHub Pages
-- Verified deployment functionality and public accessibility
-
----
-
-# Evidence
-
-## GitHub Student Account
-
-![Repository Screenshot](https://github.com/leeroy-chakanyuka/professional-portfolio/blob/main/Screenshot%202026-04-20%20233051.png)
-
----
-
-# Reflection: GitHub Student Account : STAR Method
-
-## Situation
-
-As part of my Project Presentation 3 module, I was required to create a professional GitHub presence and use it to showcase my digital portfolio. While I had previous experience using GitHub for version control in academic projects, I had never used it as a professional branding and portfolio platform.
-
-## Task
-
-To create a structured and professional GitHub account that effectively represents my technical identity, development skills, and growth as a software developer.
-
-## Action
-
-I configured my GitHub account using my CPUT student email, organised repositories clearly, and developed a detailed portfolio using GitHub Flavoured Markdown. I also explored GitHub Education resources available through the university partnership.
-
-## Result
-
-I successfully created a professional GitHub profile that serves as a digital portfolio, demonstrating both my technical projects and my ability to communicate and document software professionally.
-
----
-
-# Reflection: Coding in Markdown — STAR Method
-
-## Situation
-
-Before this module, I had mainly used Markdown for simple README files and documentation within academic projects. I had limited experience using it for professional presentation purposes.
-
-## Task
-
-To use GitHub Flavoured Markdown to create a polished digital portfolio containing my CV, reflections, media content, and supporting evidence.
-
-## Action
-
-I studied Markdown formatting techniques including tables, headings, embedded media, and structured layouts. I applied consistent formatting throughout the portfolio to improve readability and presentation quality.
-
-## Result
-
-I developed a professional portfolio entirely in Markdown and strengthened my understanding of technical documentation as an important software development skill.
-
----
-
-# Reflection: Mock Interview Video : STAR Method
-
-## Situation
-
-As part of this module, I was required to record a mock interview to demonstrate professional communication and presentation skills.
-
-## Task
-
-To present myself professionally, answer interview-style questions confidently, and explain my technical background and projects clearly.
-
-## Action
-
-I prepared responses to common interview questions and practised explaining my development experience, technical skills, and academic journey in a concise and professional manner.
-
-## Result
-
-The exercise improved my confidence, communication skills, and ability to present technical information clearly in a professional environment.
-
----
-
-# Reflection: GitHub Pages : STAR Method
-
-## Situation
-
-The project required my portfolio to be deployed publicly using GitHub Pages.
-
-## Task
-
-To configure and deploy my GitHub repository as a live portfolio website accessible through a public URL.
-
-## Action
-
-I enabled GitHub Pages within the repository settings, configured the deployment source correctly, and verified that all portfolio sections, images, and links displayed properly online.
-
-## Result
-
-I successfully published a live digital portfolio that improves my professional visibility and can be accessed by lecturers, moderators, and future employers at any time.
-
----
-
-# GitHub Stats
-
-![Leeroy's GitHub Stats](https://github-readme-stats.vercel.app/api?username=leeroy-chakanyuka&show_icons=true&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=leeroy-chakanyuka&layout=compact&hide_border=true)
-
----
-
-# Final Thoughts
-
-This digital portfolio reflects my growth as an Applications Development student, software developer, and founder. It showcases both my technical skills and my commitment to continuous learning, problem-solving, and building meaningful software solutions. I look forward to continuing to grow as a developer while contributing to impactful technology projects.
