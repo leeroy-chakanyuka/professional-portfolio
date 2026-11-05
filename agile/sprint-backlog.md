@@ -1,51 +1,71 @@
 ---
 layout: default
 title: "Sprint Backlog"
-description: "The AquaLink team's documented early iterations"
+description: "AquaLink's documented initial sprint goals, evidence and dependencies"
 permalink: /agile/sprint-backlog/
 ---
 
 [← Agile hub]({{ '/agile/' | relative_url }})
 
-## 1. Sprint overview
+## 1. What a sprint backlog shows
 
-Faith's published account identifies four initial one-week sprints, with planning, work items and taskboards. The first documented plan focused on discovery before moving to data, shared styling and design review.
+A sprint backlog takes selected work from the larger product backlog and gives the development team a short-term goal and a practical plan. The sprint backlog should make the tasks, current progress, ownership, dependencies and remaining work visible.
 
-**Source:** [AquaLink sprint backlog summary](https://github.com/FaithA965/FaithA965.github.io/blob/main/agile.md#4-sprint-backlog).
+For AquaLink, Faith's portfolio identifies four initial iterations across July and early August 2026. These dates and goals are **team-reported** and were not cross-checked against the complete live Trello history.
 
-| Sprint | Dates reported by teammate | Goal | Published board |
+## 2. Original sprint-backlog evidence
+
+![AquaLink sprint backlog, screenshot 1](https://raw.githubusercontent.com/MologadiD/Portfolio/main/assets/img/sprint-backlog-1.png)
+
+*Shared artefact: [Mologadi's sprint-backlog screenshot 1](https://github.com/MologadiD/Portfolio/blob/main/assets/img/sprint-backlog-1.png).*
+
+![AquaLink sprint backlog, screenshot 2](https://raw.githubusercontent.com/MologadiD/Portfolio/main/assets/img/sprint-backlog-2.png)
+
+*Shared artefact: [Mologadi's sprint-backlog screenshot 2](https://github.com/MologadiD/Portfolio/blob/main/assets/img/sprint-backlog-2.png).*
+
+## 3. Initial sprint chronology
+
+| Sprint | Dates in teammate's record | Reported sprint goal | Original sprint taskboard |
 |---|---|---|---|
-| 1 | 14–17 July 2026 | Research and requirements | [Screenshot](https://github.com/FaithA965/FaithA965.github.io/blob/main/Taskboard_Sprint1.png) |
-| 2 | 21–24 July 2026 | Database schema and entity relationships | [Screenshot](https://github.com/FaithA965/FaithA965.github.io/blob/main/Taskboard_Sprint2.png) |
-| 3 | 28–30 July 2026 | Shared stylesheet and interface consistency | [Screenshot](https://github.com/FaithA965/FaithA965.github.io/blob/main/Taskboard_Sprint3.png) |
-| 4 | 4–7 August 2026 | Architecture and ERD technical review | [Screenshot](https://github.com/FaithA965/FaithA965.github.io/blob/main/Taskboard_Sprint4.png) |
+| **1** | 14–17 July 2026 | Investigate water-access problems, stakeholders, service requirements and project scope | [Sprint 1 image](https://github.com/FaithA965/FaithA965.github.io/blob/main/Taskboard_Sprint1.png) |
+| **2** | 21–24 July 2026 | Define database entities, attributes, relationships and ERD | [Sprint 2 image](https://github.com/FaithA965/FaithA965.github.io/blob/main/Taskboard_Sprint2.png) |
+| **3** | 28–30 July 2026 | Establish consistent styling, shared components and responsive layout | [Sprint 3 image](https://github.com/FaithA965/FaithA965.github.io/blob/main/Taskboard_Sprint3.png) |
+| **4** | 4–7 August 2026 | Review architecture, ERD, entities, relationships and proposed changes | [Sprint 4 image](https://github.com/FaithA965/FaithA965.github.io/blob/main/Taskboard_Sprint4.png) |
 
-These dates and goals come from a teammate's portfolio; later sprints and individual completion statuses still need checking against the live board.
+*Source: [Faith's AquaLink sprint backlog](https://github.com/FaithA965/FaithA965.github.io/blob/main/agile.md#4-sprint-backlog).*
 
-## 2. Backend-relevant sprint evidence
+## 4. Relationship between the sprints
 
-**Sprint 2 — Data modelling:** The group summary reports identifying household, supplier, borehole, subscription, payment and alert concepts; defining relationships; and creating an ERD.
+**Sprint 1: Understand the problem.** The research sprint aimed to identify what residents and suppliers needed, rather than immediately designing software around an assumed solution.
 
-**Sprint 4 — Technical review:** The group summary describes reviewing the architecture, ERD, entities and relationships. It says final approval was still being prepared on 7 August, so approval must not be asserted without further evidence.
+**Sprint 2: Represent the domain.** The database sprint considered the entities and relationships needed by the planned platform: households, boreholes, suppliers, service plans, payments, tanks, alerts and related information. This is particularly relevant to the allocated backend role.
 
-These are **team-level statements**, not proof that I personally completed all of these tasks.
+**Sprint 3: Create a common visual language.** The team worked on shared styling and interface components. This was primarily a user-interface workstream; it should not be recorded as backend implementation.
 
-## 3. Task-level traceability
+**Sprint 4: Revisit the technical design.** The team reviewed the architecture and ERD against the requirements. Faith's log describes items being reviewed and the final team approval still being prepared by 7 August, so this portfolio **does not claim final approval was already obtained**.
 
-Once board access is confirmed, add a table of my actual assigned cards, dependencies, planned versus completed work, links to commits or documents, sprint reviews and blockers.
+## 5. Tracking planned versus completed work
 
-[View the original Trello board](https://trello.com/b/5lxVBUSK/aqualink).
+A task listed under a sprint is a commitment or planned activity; its presence in a screenshot is not necessarily proof it was completed. Each task should eventually be traced to a status, responsible member and evidence of output. The [live project board](https://trello.com/b/5lxVBUSK/aqualink) is the preferred source for those details.
 
-## 4. Personal reflection
+For backend work in Sprint 2 or 4, useful evidence would be an ERD revision, schema commit, design decision, issue, test or API contract. None is claimed as personally completed until it can be verified.
+
+## 6. Personal reflection (STAR) — draft for review
 
 <a id="personal-reflection"></a>
 
-**To complete from my own experience:**
+**Situation.** AquaLink's work had to move from understanding the community problem to defining technical requirements. The team divided the early work into short iterations so that each workstream would feed the next.
 
-- **Situation:** What was the sprint goal and what was uncertain?
-- **Task:** What was I individually assigned?
-- **Action:** What did I implement, investigate or review? Which dependencies did I communicate?
-- **Result:** Which outcomes can I verify, and what would I change in the next sprint?
+**Task.** In my Backend Developer role, the database-design and technical-review sprints were especially relevant. Their goals concerned the information model and system behaviours that planned backend functionality would depend on.
 
-<!-- TODO: add real screenshots and task evidence and a first-person STAR reflection. -->
+**Action.** The documented sprint structure separated research, data modelling, interface consistency and technical review. This sequence illustrates the importance of understanding dependencies before implementation. For example, a backend design decision about the relationship between a household and service plan needs to be consistent with what the product team intends to offer and what the UI will eventually display.
 
+**Result and learning.** The chronology shows an organised progression through discovery, technical modelling and review, but the published screenshots alone do not establish the status of every individual assignment. My strongest takeaway is that sprint planning should balance ambition with the information actually available: unclear requirements and unresolved dependencies should be surfaced as work in their own right.
+
+> **Personal check before submission:** Add the tasks you personally worked on, the dates of your own updates, the outcome, and any blocker you genuinely encountered. The above is a reflection draft on the shared process, not an invented personal sprint diary.
+
+## References
+
+- [Faith Adams — Sprint Backlog](https://github.com/FaithA965/FaithA965.github.io/blob/main/agile.md#4-sprint-backlog)
+- [Mologadi Dikgale — Backlog screenshots](https://github.com/MologadiD/Portfolio/tree/main/assets/img)
+- [AquaLink Trello Board](https://trello.com/b/5lxVBUSK/aqualink)
