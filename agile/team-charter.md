@@ -1,52 +1,74 @@
 ---
 layout: default
 title: "Agile Team Charter"
-description: "AquaLink roles, team agreements and working principles"
+description: "AquaLink's shared purpose, roles, working agreements and changes"
 permalink: /agile/team-charter/
 ---
 
 [← Agile hub]({{ '/agile/' | relative_url }})
 
-## 1. Purpose and team context
+## Evidence: the actual team charter
 
-The AquaLink team formed to explore a more dependable and transparent model for community water access in Muraleni village, Limpopo. The shared charter describes purpose, roles, values, communication and planned goals.
+The AquaLink team designed a proposal to improve household access to water in **Muraleni, Limpopo**, connecting households, borehole suppliers and administrators through a digital platform alongside a planned physical distribution network.
 
-**Primary group artefact:** [Agile Team Charter PDF, published by team member Faith Adams](https://github.com/FaithA965/FaithA965.github.io/blob/main/Agile_Team_Charter.pdf).
+The charter provides a common statement of purpose, role assignments, responsibilities, values and communication expectations. It is a **shared project artefact**; the original PDF and Mologadi's screenshots provide the evidence.
 
-## 2. Team roles
+[Read the full team charter PDF](https://github.com/FaithA965/FaithA965.github.io/blob/main/Agile_Team_Charter.pdf).
 
-| Member | Role | Responsibility described by shared documentation |
+![AquaLink team charter: page one](https://raw.githubusercontent.com/MologadiD/Portfolio/main/assets/img/charter-1.png)
+
+*Source: [Mologadi's charter image 1](https://github.com/MologadiD/Portfolio/blob/main/assets/img/charter-1.png).*
+
+![AquaLink team charter: page two](https://raw.githubusercontent.com/MologadiD/Portfolio/main/assets/img/charter-2.png)
+
+*Source: [Mologadi's charter image 2](https://github.com/MologadiD/Portfolio/blob/main/assets/img/charter-2.png).*
+
+## Shared purpose and stakeholder value
+
+The project evolved from an initially narrower water-delivery concept into the proposal for a piped-water network supported by digital records. The proposed platform considers three principal users:
+
+| User | Intended benefit |
+|---|---|
+| Household | Easier connection requests and a clearer view of subscription, usage and payment information |
+| Borehole supplier | A structured way to register and manage supply information |
+| Administrator | Visibility over users, supply, accounts and operational information |
+
+These describe **intended capabilities**, not independently verified completed features.
+
+## Roles and working agreements
+
+| Team member | Role in AquaLink | Charter responsibilities |
 |---|---|---|
-| Mologadi Dikgale | Project Manager | Planning, backlog management and coordination |
-| Uhmar Adams | Lead Developer | Architecture, integration and code review |
-| **Leeroy Chakanyuka** | **Backend Developer** | **REST APIs, database schema, business logic** |
-| Faith Adams | UI/UX Designer | Wireframes, user flows and interface design |
-| Phatushedzo Baloyi | QA Tester | Test cases, defects and acceptance checks |
+| Mologadi Dikgale | Project Manager | Plans iterations, tracks progress and raises blockers |
+| Uhmar Adams | Lead Developer | Technical design, integration and code-review coordination |
+| **Leeroy Chakanyuka** | **Backend Developer** | **REST APIs, relational schema and business logic** |
+| Faith Adams | UI/UX Designer | User journeys, wireframes and interfaces |
+| Phatushedzo Baloyi (Tony) | QA Tester | Test planning, verification and defect tracking |
 
-Source: [Faith's charter summary](https://github.com/FaithA965/FaithA965.github.io/blob/main/agile.md#1-agile-team-charter).
+*Role descriptions from [Faith's AquaLink Agile portfolio](https://github.com/FaithA965/FaithA965.github.io/blob/main/agile.md#1-agile-team-charter). Tony's responsibilities in a different university project are not used here.*
 
-## 3. Reported working agreements
+The team's reported values include community focus, transparency, accountability, respect, fairness, reliability and simplicity. WhatsApp was the main short-update channel, with Teams or in-person meetings for more involved planning and review discussions, and GitHub for development work. A daily stand-up was intended to communicate what had been completed, what came next and where progress was blocked.
 
-The published team summary describes WhatsApp for daily check-ins, Microsoft Teams or in-person meetings for planning and reviews, and GitHub for source control. It also describes short stand-ups reporting completed work, planned work and blockers.
+## Changes that tested the charter
 
-> These are reported charter agreements, not confirmation of every meeting or activity. The original charter PDF and Trello records should be used to check versions and implementation.
+Two issues in the shared project history show why a charter must remain adaptable. First, the original charter anticipated **two-week sprints** but the initial documented sprints ran on roughly **one-week cycles**. Second, project scope changed as the water-service concept and user requirements developed. An effective charter should record such changes rather than leave the written agreements detached from reality.
 
-## 4. Charter changes and learning opportunities
-
-Faith's retrospective notes two important differences between the original plan and the developing project: a shift from two-week to one-week sprints, and a shift from an initially narrower water-service concept to a wider platform serving households, suppliers and administrators.
-
-These are useful examples of adapting a team agreement as requirements evolve. They should be attributed to the shared project record, not presented as individual achievements.
-
-## 5. Personal reflection
+## Personal reflection (STAR) — draft for review
 
 <a id="personal-reflection"></a>
 
-**To be completed in my own words from my actual participation:**
+**Situation.** We had a community-focused idea that required agreement across business planning, interface design, backend development and testing. The team needed a way to avoid overlapping work, unclear decision-making and lost requirements.
 
-- **Situation:** What was happening when the team agreed its roles and rules? What uncertainty did I experience?
-- **Task:** Which backend responsibilities did I personally accept?
-- **Action:** What did I actually contribute to planning, communication, schema discussions or changes to the charter? Link the evidence.
-- **Result:** What changed because of my contribution, and what would I improve next time?
+**Task.** My allocated role was Backend Developer, with responsibility for thinking through how data, API contracts and business rules would support the household, supplier and administrator journeys.
 
-<!-- TODO: replace this worksheet with a first-person STAR reflection based on your own experience and cited evidence. -->
+**Action.** The charter established clear areas of ownership and a communication framework in which issues could be raised before they affected other members. In reviewing the shared plan, the most important dependencies for the backend role are the identity and relationship of household/supplier records, the rules for subscriptions and water usage, and the contract expected by the interface. The change from the original sprint cadence also shows why planning assumptions should be revisited.
 
+**Result and learning.** The charter created a useful starting agreement, but the evolving scope and sprint length demonstrate that planning documents need maintenance. My main takeaway is to confirm technical dependencies early and make changes to working agreements explicit rather than assuming that everyone has the same understanding.
+
+> **Personal check before submission:** Confirm the planning discussions you actually attended or influenced; this text does not claim you personally authored the charter or implemented the entire proposed backend.
+
+## References
+
+- [Faith Adams — AquaLink charter summary and team roles](https://github.com/FaithA965/FaithA965.github.io/blob/main/agile.md).
+- [Mologadi Dikgale — AquaLink charter screenshots](https://github.com/MologadiD/Portfolio/tree/main/assets/img).
+- [Original team charter PDF](https://github.com/FaithA965/FaithA965.github.io/blob/main/Agile_Team_Charter.pdf).
