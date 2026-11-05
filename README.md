@@ -139,4 +139,4 @@ I navigated to my repository's Settings, selected the Pages section, and set the
 My portfolio was successfully published as a live website at no cost and with no need for external hosting. This experience reinforced my ability to use github as a platform capable of hosting and showcasing developer work; a valuable insight as I enter the ICT industry.
 
 ### Live Portfolio  
-➡️ **[View Portfolio](https://leeroy-chakanyuka.github.io/leeroy-chakanyuka-cv/)**
+➡️ **[View Portfolio](https://leeroy-chakanyuka.github.io/professional-portfolio/)**
