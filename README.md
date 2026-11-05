@@ -1,3 +1,8 @@
+> **Assessment 2 — AquaLink Agile Portfolio:** [Team Charter](agile/team-charter.md) · [User Stories and Tasks](agile/user-stories.md) · [Product Backlog](agile/product-backlog.md) · [Sprint Backlog](agile/sprint-backlog.md) · [Agile Logbook](agile/agile-logbook.md) · [Evidence Register](agile/evidence-register.md).
+> These are source-attributed portfolio drafts; individual work logs and implementation claims require verification before submission.
+
+---
+
 ## GitHub Student Account
 
 ![GitHub Profile Screenshot](Screenshot%202026-04-20%20233051.png)
