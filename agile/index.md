@@ -19,9 +19,21 @@ The shared project portfolio lists five members:
 | Uhmar Adams | Lead Developer |
 | **Leeroy Chakanyuka** | **Backend Developer** |
 | Faith Adams | UI/UX Designer |
-| Phatushedzo Baloyi | QA Tester |
+| Phatushedzo Baloyi (Tony) | QA Tester |
 
 **Source:** [Faith Adams's AquaLink Agile portfolio](https://github.com/FaithA965/FaithA965.github.io/blob/main/agile.md). These are team-role assignments; they do not by themselves prove that each planned task was completed.
+
+## Original team evidence now available
+
+Mologadi's repository now has the previously missing screenshots for all five Agile artefacts. Each of the detailed pages displays the corresponding source images and links directly to the originals.
+
+| Artefact | Shared evidence |
+|---|---|
+| Team charter | [Screenshot 1](https://github.com/MologadiD/Portfolio/blob/main/assets/img/charter-1.png) · [Screenshot 2](https://github.com/MologadiD/Portfolio/blob/main/assets/img/charter-2.png) |
+| User stories | [Screenshot 1](https://github.com/MologadiD/Portfolio/blob/main/assets/img/stories-1.png) · [Screenshot 2](https://github.com/MologadiD/Portfolio/blob/main/assets/img/stories-2.png) |
+| Product backlog | [Screenshot 1](https://github.com/MologadiD/Portfolio/blob/main/assets/img/product-backlog-1.png) · [Screenshot 2](https://github.com/MologadiD/Portfolio/blob/main/assets/img/product-backlog-2.png) |
+| Sprint backlog | [Screenshot 1](https://github.com/MologadiD/Portfolio/blob/main/assets/img/sprint-backlog-1.png) · [Screenshot 2](https://github.com/MologadiD/Portfolio/blob/main/assets/img/sprint-backlog-2.png) |
+| Agile logbook | [Screenshot 1](https://github.com/MologadiD/Portfolio/blob/main/assets/img/logbook-1.png) · [Screenshot 2](https://github.com/MologadiD/Portfolio/blob/main/assets/img/logbook-2.png) |
 
 ## Five assessed artefacts
 
