@@ -117,3 +117,37 @@ The logic behind this order is dependency reduction: a payment or monitoring scr
 - [AquaLink original Trello board](https://trello.com/b/5lxVBUSK/aqualink)
 - [Faith Adams: AquaLink product backlog](https://github.com/FaithA965/FaithA965.github.io/blob/main/agile.md#3-product-backlog)
 - [Mologadi Dikgale: original backlog screenshots](https://github.com/MologadiD/Portfolio/tree/main/assets/img)
+
+## 10. Delivery dependencies: a backend reading of the backlog
+
+The later backlog separates completed user-facing screens from three critical unresolved integration areas. This distinction changes the technical definition of progress.
+
+| User-facing capability | Backend dependency | Evidence needed before claiming end-to-end completion |
+|---|---|---|
+| Household details | Durable household records and authorisation | CRUD tests and a role-restricted read |
+| Plans and purchases | Plan model, transaction state and payment integration | A recorded sandbox transaction and error-path test |
+| Supplier tank view | Tank identity, reading schema and timestamp handling | Verified ingest or clearly marked simulated sample |
+| Admin overview | Accurate aggregation across household and supplier data | A repeatable test dataset and reconciliation |
+| Alerts and refill history | Event persistence, business rules and auditability | Test cases for state transitions and historical records |
+
+This is a proposed verification matrix based on the project's requirements; it is **not** evidence that these checks were completed.
+
+## 11. Backlog decisions I would document next time
+
+The logbook records the team revisiting remaining work as the presentation approached. As a backend developer, I would make the reasoning behind such decisions more visible:
+
+1. Identify whether a work item is a demonstration screen, a business workflow or an external integration.
+2. Assign a named owner, priority, acceptance criteria and blocking dependency.
+3. Keep schema design, implemented persistence and integration testing as separate status checkpoints.
+4. Record why mobile work remains future scope while the demonstrable application takes priority.
+5. Link each completed task to a test, commit or screenshot that actually substantiates the particular claim.
+
+## 12. Final reflection on prioritisation
+
+AquaLink's backlog illustrates how easy it is to confuse breadth of features with depth of delivery. The team could show dashboards, purchase screens and sensor-oriented interfaces while the original records still identified persistent database, live payment and physical IoT connections as separate work. That is a useful engineering distinction, not a failure to hide.
+
+My learning is that backlog prioritisation should protect the integrity of the system underneath the screens. I would argue for explicitly scheduling model design, validation and persistence work before relying on user-facing flows for a production claim, while keeping a demonstration's limits visible and honest.
+
+The shared backlog entries and screenshots are team evidence. My individual contribution to a specific card must be supported by my own task history before being presented as an accomplished personal deliverable.
+
+[Compare the later team backlog](https://github.com/TonyBaloyi/Portfolio/blob/main/product-backlog.md) · [Review the evidence register]({{ '/agile/evidence-register/' | relative_url }})
