@@ -1,115 +1,131 @@
 ---
 layout: default
 title: "Sprint Backlog"
-description: "AquaLink's documented initial sprint goals, evidence and dependencies"
+description: "Sprint planning, workstreams, dependencies, original records and backend learning"
 permalink: /agile/sprint-backlog/
 ---
 
-## 1. What a sprint backlog shows
+<p class="chapter-intro">A sprint backlog represents work selected for an iteration, how it will be approached and why it is achievable. Delivery must still be supported by evidence.</p>
 
-A sprint backlog takes selected work from the larger product backlog and gives the development team a short-term goal and a practical plan. The sprint backlog should make the tasks, current progress, ownership, dependencies and remaining work visible.
+This chapter follows the team's longer project record through October, while also crediting Faith's earlier July–August sprint taskboards. Those records overlap, and neither should be mistaken for my personal diary.
 
-For AquaLink, Faith's portfolio identifies four initial iterations across July and early August 2026. These dates and goals are **team-reported** and were not cross-checked against the complete live Trello history.
+## 01. Understanding our sprint planning
 
-## 2. Original sprint-backlog evidence
+The team's scope included requirements, architecture, Admin and Supplier screens, shared logic, quality checks and final preparation. Sprint planning was useful because it converted a broad concept into shorter sets of tasks.
 
-![AquaLink sprint backlog, screenshot 1](https://raw.githubusercontent.com/MologadiD/Portfolio/main/assets/img/sprint-backlog-1.png)
+### Planned work is different from completed work
 
-*Shared artefact: [Mologadi's sprint-backlog screenshot 1](https://github.com/MologadiD/Portfolio/blob/main/assets/img/sprint-backlog-1.png).*
+In the logbook, *completed*, *planned* and *impeded* are separate categories. A sprint backlog should preserve these distinctions. A feature appearing in a sprint does not establish it was implemented, integrated or tested.
 
-![AquaLink sprint backlog, screenshot 2](https://raw.githubusercontent.com/MologadiD/Portfolio/main/assets/img/sprint-backlog-2.png)
+## 02. Our documented development timeline
 
-*Shared artefact: [Mologadi's sprint-backlog screenshot 2](https://github.com/MologadiD/Portfolio/blob/main/assets/img/sprint-backlog-2.png).*
-
-## 3. Initial sprint chronology
-
-| Sprint | Dates in teammate's record | Reported sprint goal | Original sprint taskboard |
-|---|---|---|---|
-| **1** | 14–17 July 2026 | Investigate water-access problems, stakeholders, service requirements and project scope | [Sprint 1 image](https://github.com/FaithA965/FaithA965.github.io/blob/main/Taskboard_Sprint1.png) |
-| **2** | 21–24 July 2026 | Define database entities, attributes, relationships and ERD | [Sprint 2 image](https://github.com/FaithA965/FaithA965.github.io/blob/main/Taskboard_Sprint2.png) |
-| **3** | 28–30 July 2026 | Establish consistent styling, shared components and responsive layout | [Sprint 3 image](https://github.com/FaithA965/FaithA965.github.io/blob/main/Taskboard_Sprint3.png) |
-| **4** | 4–7 August 2026 | Review architecture, ERD, entities, relationships and proposed changes | [Sprint 4 image](https://github.com/FaithA965/FaithA965.github.io/blob/main/Taskboard_Sprint4.png) |
-
-*Source: [Faith's AquaLink sprint backlog](https://github.com/FaithA965/FaithA965.github.io/blob/main/agile.md#4-sprint-backlog).*
-
-## 4. Relationship between the sprints
-
-**Sprint 1: Understand the problem.** The research sprint aimed to identify what residents and suppliers needed, rather than immediately designing software around an assumed solution.
-
-**Sprint 2: Represent the domain.** The database sprint considered the entities and relationships needed by the planned platform: households, boreholes, suppliers, service plans, payments, tanks, alerts and related information. This is particularly relevant to the allocated backend role.
-
-**Sprint 3: Create a common visual language.** The team worked on shared styling and interface components. This was primarily a user-interface workstream; it should not be recorded as backend implementation.
-
-**Sprint 4: Revisit the technical design.** The team reviewed the architecture and ERD against the requirements. Faith's log describes items being reviewed and the final team approval still being prepared by 7 August, so this portfolio **does not claim final approval was already obtained**.
-
-## 5. Tracking planned versus completed work
-
-A task listed under a sprint is a commitment or planned activity; its presence in a screenshot is not necessarily proof it was completed. Each task should eventually be traced to a status, responsible member and evidence of output. The [live project board](https://trello.com/b/5lxVBUSK/aqualink) is the preferred source for those details.
-
-For backend work in Sprint 2 or 4, useful evidence would be an ERD revision, schema commit, design decision, issue, test or API contract. None is claimed as personally completed until it can be verified.
-
-## 6. Extended project timeline from the later team logbook
-
-Faith's four early sprint boards cover July and early August. Tony's [later dated logbook](https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/documents/AquaLink_Agile_Logbook.docx) covers the wider implementation cycle. The phases below summarise its dated workstreams; they **do not** claim to be the exact numbering of the logbook's referenced eleven-sprint roadmap.
-
-| Period | Team-reported workstream | Important delivery boundary |
+| Recorded period | Workstream | Shared activities |
 |---|---|---|
-| 27–31 July | Requirements and user stories | Acceptance criteria and scope |
-| 3–7 August | Visual foundations and shared components | Consistency across screens |
-| 10–14 August | Architecture and data requirements | Entities and integration assumptions |
-| 17–21 August | Administrator implementation | Dashboard and household/plan views |
-| 24–28 August | Supplier operations | Tanks, refills and alerts |
-| 31 August–4 September | Shared component logic | Navigation, styles and page consistency |
-| 7–11 September | Integration of screen flows | Cross-page navigation |
-| 14–18 September | Application review | Implementation against requirements |
-| 21–25 September | Quality activities | Admin/Supplier screen tests |
-| 28 September–2 October | Regression and responsiveness | Browser and layout checks |
-| 5–9 October | Integration boundaries | UI completion versus services outstanding |
-| 12–16 October | Documentation | Architecture and business model |
-| 19–23 October | Demo preparation | Outstanding tasks and walkthrough |
+| 27–31 July | Requirements | Stories, scope, navigation and acceptance criteria |
+| 3–7 August | UI/UX foundations | Shared styling, screen design and components |
+| 10–14 August | Architecture and data | Entities, database design and dependencies |
+| 17–21 August | Administrator implementation | Dashboard, households, plans and purchases |
+| 24–28 August | Supplier operations | Tank screens, refills and alerts |
+| 31 August–4 September | Shared components | Styling, common logic and navigation |
+| 7–11 September | Screen integration | Page consistency and navigation |
+| 14–18 September | Application review | Comparison of screens to requirements |
+| 21–25 September | Quality checks | Admin and Supplier screen testing |
+| 28 September–2 October | Quality improvement | Bug fixes, responsive and browser testing |
+| 5–9 October | Integration boundaries | Review of completed interfaces and remaining services |
+| 12–16 October | Documentation | Business, architecture and supporting records |
+| 19–23 October | Presentation preparation | Demo sequence and outstanding-task review |
 | 26–29 October | Final review | Reprioritisation and readiness |
 
-*Source: [Tony's Sprint Backlog portfolio](https://github.com/TonyBaloyi/Portfolio/blob/main/sprint-backlog.md), summarising the team logbook.*
+**Source:** [Tony's July–October dated Agile Logbook](https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/documents/AquaLink_Agile_Logbook.docx). Faith's earlier record separately documents [Sprint 1](https://github.com/FaithA965/FaithA965.github.io/blob/main/Taskboard_Sprint1.png), [Sprint 2](https://github.com/FaithA965/FaithA965.github.io/blob/main/Taskboard_Sprint2.png), [Sprint 3](https://github.com/FaithA965/FaithA965.github.io/blob/main/Taskboard_Sprint3.png) and [Sprint 4](https://github.com/FaithA965/FaithA965.github.io/blob/main/Taskboard_Sprint4.png).
 
-## 7. Planned, completed and blocked are different states
+## 03. Planned work and impediments
 
-A useful sprint review should distinguish four claims: **selected work**, **work started**, **work completed** and **work independently verified**. The logbook shows reported interface delivery and review activities while also identifying outstanding database, payment and sensor connections.
+### Example A: Requirements planning
 
-The last category matters most for technical reporting. For backend tasks, I would expect to see relevant commits, an executable test or a demonstration of data persistence before marking an end-to-end service complete.
+At the start of the project, the challenge was to settle user needs and the water-service model. Unresolved scope affects every later technical workstream, especially data ownership and transactions.
 
-## 8. The practical meaning of a sprint dependency
+### Example B: Interface implementation
 
-<div class="mini-grid"><div><h3>Data-first work</h3><p>A household detail screen needs a data contract. The domain model and permission rules should be agreed before treating its backing service as ready.</p></div><div><h3>External integration</h3><p>A purchase screen can be displayed without payment-provider access. A testable payment integration requires an environment, credentials and evidence of outcomes.</p></div></div>
+Admin and Supplier screens were developed in the later recorded iterations. Shared design components and navigation became dependencies: a change in one common element could affect many pages.
 
-This distinction is a lesson from the published team's delivery record, not a claim that I personally implemented either workflow.
+### Example C: Responsive and regression testing
 
-## 9. What I would add to sprint reporting
+The published logbook reports screen-level review and responsive checks. These activities demonstrate quality attention, but they should not be used as proof of unrecorded API, payment or IoT integration tests.
 
-| Field | Reason to capture it |
-|---|---|
-| Story / task ID | Link sprint work to the product backlog |
-| Owner and reviewer | Clarify responsibility and verification |
-| Dependency | Explain blockers before missed commitments |
-| Acceptance criterion | Decide what completion means |
-| Commit / test / artefact | Give assessors observable evidence |
-| Follow-up | Record what still needs to be finished |
+### Example D: Final reprioritisation
 
-## 10. Personal reflection (STAR) — draft for review
+As the November presentation approached, the reported priorities shifted towards documentation, stable demonstration routes and explaining outstanding integrations. That was an adaptation to time and scope.
 
-<a id="personal-reflection"></a>
+## 04. Connecting sprint work to deliverables
 
-**Situation.** AquaLink's work had to move from understanding the community problem to defining technical requirements. The team divided the early work into short iterations so that each workstream would feed the next.
+| Area | Team-reported output | Boundary to retain |
+|---|---|---|
+| Requirements | Stories and criteria recorded | Not all proposed stories equal deployed services |
+| Architecture | Schema design and review | Schema design is not live persistence |
+| Shared UI | Layouts, navigation and reusable logic | Does not prove server integration |
+| Admin screens | Household, plan, dashboard and purchase views | Purchase interface is not verified payment processing |
+| Supplier screens | Tank, refill and alert views | Sensor display is not live hardware integration |
+| Quality | Screen and browser testing reported | API and end-to-end evidence should be separate |
+| Database | Integration appeared in remaining work | Avoid claiming complete CRUD without proof |
+| Payments | Real provider connection appeared in remaining work | Verify test transaction before claiming completion |
+| IoT | Physical sensors appeared in remaining work | Label simulated readings honestly |
 
-**Task.** In my Backend Developer role, the database-design and technical-review sprints were especially relevant. Their goals concerned the information model and system behaviours that planned backend functionality would depend on.
+## 05. How dependencies affected iteration work
 
-**Action.** The documented sprint structure separated research, data modelling, interface consistency and technical review. This sequence illustrates the importance of understanding dependencies before implementation. For example, a backend design decision about the relationship between a household and service plan needs to be consistent with what the product team intends to offer and what the UI will eventually display.
+### Interface dependencies
 
-**Result and learning.** The chronology shows an organised progression through discovery, technical modelling and review, but the published screenshots alone do not establish the status of every individual assignment. My strongest takeaway is that sprint planning should balance ambition with the information actually available: unclear requirements and unresolved dependencies should be surfaced as work in their own right.
+Navigation and shared styles enabled a consistent user experience but also required regression checks as pages were added.
 
-> **Personal check before submission:** Add the tasks you personally worked on, the dates of your own updates, the outcome, and any blocker you genuinely encountered. The above is a reflection draft on the shared process, not an invented personal sprint diary.
+### Backend dependencies
 
-## References
+A household record, plan or tank view depends on well-defined entities, relationships and access rules. From my assigned role, this is the point where clear technical contracts are essential.
 
-- [Faith Adams — Sprint Backlog](https://github.com/FaithA965/FaithA965.github.io/blob/main/agile.md#4-sprint-backlog)
-- [Mologadi Dikgale — Backlog screenshots](https://github.com/MologadiD/Portfolio/tree/main/assets/img)
-- [AquaLink Trello Board](https://trello.com/b/5lxVBUSK/aqualink)
+### External dependencies
+
+Payment gateways and sensors introduce credentials, test environments and hardware availability beyond ordinary page development. They should have their own risk and acceptance criteria.
+
+## 06. Original Trello sprint evidence
+
+<div class="evidence-mosaic">
+<figure class="archive-item"><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-05.jpg"><img loading="lazy" src="https://raw.githubusercontent.com/TonyBaloyi/Portfolio/main/evidence/trello/trello-05.jpg" alt="AquaLink Trello sprint evidence 05"></a><figcaption><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-05.jpg">Sprint screenshot 05</a></figcaption></figure>
+<figure class="archive-item"><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-06.jpg"><img loading="lazy" src="https://raw.githubusercontent.com/TonyBaloyi/Portfolio/main/evidence/trello/trello-06.jpg" alt="AquaLink Trello sprint evidence 06"></a><figcaption><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-06.jpg">Sprint screenshot 06</a></figcaption></figure>
+<figure class="archive-item"><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-07.jpg"><img loading="lazy" src="https://raw.githubusercontent.com/TonyBaloyi/Portfolio/main/evidence/trello/trello-07.jpg" alt="AquaLink Trello sprint evidence 07"></a><figcaption><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-07.jpg">Sprint screenshot 07</a></figcaption></figure>
+</div>
+
+These images are reproduced by linking to [Tony's original evidence files](https://github.com/TonyBaloyi/Portfolio/tree/main/evidence/trello). They remain attributed **shared team evidence**, not individual authorship claims.
+
+## 07. My assigned workstream
+
+The team charter lists me as Backend Developer, associated with REST APIs, relational schema and business rules. That assignment helps explain which sprint dependencies mattered most to me: data relationships must be consistent before multiple screens rely on them, and persistence tests must distinguish a working service from demonstration data.
+
+I am not asserting that every endpoint or integration was completed by me; that requires my own issue and commit history.
+
+## 08. Reflection: capacity and adaptation
+
+A sprint plan creates focus, but cannot eliminate uncertainty. AquaLink's evolution shows that discovery work can change implementation assumptions and that several features may depend on the same unresolved decision.
+
+### The importance of reviewing progress
+
+What I would carry forward is the habit of checking the definition of done at the end of each iteration. If the UI is present but its backend dependency remains open, the review should make that difference visible. Otherwise the team can underestimate remaining work at precisely the point when delivery becomes most time-sensitive.
+
+## 09. Improvements I would make
+
+1. Estimate the work the team can actually verify within a sprint.
+2. Record each task's owner, expected output and dependencies.
+3. Give screen implementation and real integration different acceptance conditions.
+4. Review blockers during the sprint, not only at the end.
+5. Reserve time for tests, documentation and regression checks.
+6. Preserve a dated decision log whenever scope or priorities change.
+7. Keep the individual contribution record separate from team status updates.
+
+## 10. Connection to Agile practice
+
+The Scrum Guide frames the Sprint Backlog as a plan by and for the Developers, including the Sprint Goal, selected backlog items and a plan for delivering them. AquaLink illustrates why the plan should be regularly inspected and adapted as new information arises.
+
+**Reference:** Schwaber, K. and Sutherland, J. (2020), [The Scrum Guide](https://scrumguides.org/scrum-guide.html).
+
+## 11. Final reflection
+
+My main lesson is that an iterative plan is only useful when it gives the team an accurate view of reality. The shared record shows substantial progression in requirements and screens while distinguishing unresolved integrations. As a backend developer, I would make technical dependencies and verification visible earlier, so the final demonstration represents the system faithfully.
+
+[← Product Backlog]({{ '/agile/product-backlog/' | relative_url }}) · [Agile Logbook →]({{ '/agile/agile-logbook/' | relative_url }})

@@ -17,7 +17,9 @@ AquaLink explored how digital tools could support water management in **Muraleni
 <a href="{{ '/agile/product-backlog/' | relative_url }}"><strong>03. Product Backlog</strong><span>Features, P1/P2 priorities and refinement</span></a>
 <a href="{{ '/agile/sprint-backlog/' | relative_url }}"><strong>04. Sprint Backlog</strong><span>Iteration planning and delivery boundaries</span></a>
 <a href="{{ '/agile/agile-logbook/' | relative_url }}"><strong>05. Agile Logbook</strong><span>Dated team evidence and technical retrospectives</span></a>
-<a href="{{ '/agile/evidence-gallery/' | relative_url }}"><strong>Appendix. Evidence Gallery</strong><span>Original records and attribution</span></a>
+<a href="{{ '/agile/evidence-gallery/' | relative_url }}"><strong>06. Evidence Gallery</strong><span>Sixteen Trello screenshots and the original dated logbook</span></a>
+<a href="{{ '/agile/backend-reflection/' | relative_url }}"><strong>07. Engineering Reflection</strong><span>Ten-part reflection on my backend role and learning</span></a>
+<a href="{{ '/agile/our-story/' | relative_url }}"><strong>08. Our Story</strong><span>The community problem and purpose behind AquaLink</span></a>
 </div>
 
 ## The team and my assigned role

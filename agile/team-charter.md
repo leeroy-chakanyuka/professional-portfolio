@@ -130,3 +130,32 @@ What I take from the project is the distinction between *knowing who is responsi
 This reflection describes my interpretation of the shared evidence. It does not claim that I authored Tony's logbook, chaired every recorded meeting or personally completed every listed integration.
 
 [Read Tony's later coordination record](https://github.com/TonyBaloyi/Portfolio/blob/main/agile-team-charter.md) · [Open the original team charter](https://github.com/FaithA965/FaithA965.github.io/blob/main/Agile_Team_Charter.pdf)
+
+
+## Full charter evidence: working agreements and the later record
+
+Tony's later portfolio describes his Project Lead and frontend experience, while Faith's earlier published charter names Mologadi as Project Manager and lists Tony in QA. Both are attributed records; I cannot reconcile their different role descriptions from the materials alone. The role used in *my* account is the earlier charter's assignment of Leeroy as Backend Developer.
+
+The later logbook provides examples of coordination such as July requirements review, August UI consolidation and October final-priority review. These show activities the **team recorded**, not proof that I personally convened or led those meetings.
+
+<figure class="archive-item"><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-04.jpg"><img loading="lazy" src="https://raw.githubusercontent.com/TonyBaloyi/Portfolio/main/evidence/trello/trello-04.jpg" alt="Original Trello team coordination screenshot"></a><figcaption><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-04.jpg">View the original coordination screenshot in Tony's evidence archive</a></figcaption></figure>
+
+### What I would establish at project start
+
+| Agreement | Practical check |
+|---|---|
+| Responsibilities | Each ticket has an owner and reviewer |
+| Deadlines | Each sprint commitment is realistically estimated |
+| Communication | Blockers are raised before the next scheduled review |
+| Technical quality | API work includes validation and reproducible tests |
+| Scope changes | Changed business rules are recorded and reflected in the backlog |
+| Escalation | Delayed dependencies are assigned a clear next decision |
+| Retrospectives | Each review ends with an improvement that can be checked |
+
+These are **future recommendations**, not an invented signed contract.
+
+## Final reflection on the charter
+
+A common purpose matters, but it needs clear ownership and reliable communication to translate into work. The most relevant lesson for my role was that backend dependencies must be made visible to the rest of the team. That is how a charter becomes an engineering practice rather than an introductory document.
+
+[See the User Stories & Tasks chapter]({{ '/agile/user-stories/' | relative_url }})

@@ -151,3 +151,20 @@ My learning is that backlog prioritisation should protect the integrity of the s
 The shared backlog entries and screenshots are team evidence. My individual contribution to a specific card must be supported by my own task history before being presented as an accomplished personal deliverable.
 
 [Compare the later team backlog](https://github.com/TonyBaloyi/Portfolio/blob/main/product-backlog.md) · [Review the evidence register]({{ '/agile/evidence-register/' | relative_url }})
+
+
+## Shared backlog artefacts and evidence
+
+The original team planning screenshots are retained as the most direct examples of backlog documentation. They do not, by themselves, prove individual coding or completion.
+
+<div class="evidence-mosaic">
+<figure class="archive-item"><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-01.jpg"><img loading="lazy" src="https://raw.githubusercontent.com/TonyBaloyi/Portfolio/main/evidence/trello/trello-01.jpg" alt="Trello backlog screenshot 01"></a><figcaption><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-01.jpg">Original backlog image 01</a></figcaption></figure>
+<figure class="archive-item"><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-02.jpg"><img loading="lazy" src="https://raw.githubusercontent.com/TonyBaloyi/Portfolio/main/evidence/trello/trello-02.jpg" alt="Trello backlog screenshot 02"></a><figcaption><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-02.jpg">Original backlog image 02</a></figcaption></figure>
+<figure class="archive-item"><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-03.jpg"><img loading="lazy" src="https://raw.githubusercontent.com/TonyBaloyi/Portfolio/main/evidence/trello/trello-03.jpg" alt="Trello backlog screenshot 03"></a><figcaption><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-03.jpg">Original backlog image 03</a></figcaption></figure>
+</div>
+
+The later logbook's P1/P2 list should be interpreted as **remaining work near delivery**, not as an unchanged backlog covering every month. As deadlines approached, documentation, demonstration stability and accurate statements about integration became high priorities.
+
+**Source:** [Tony's dated original Agile Logbook](https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/documents/AquaLink_Agile_Logbook.docx) and [later backlog chapter](https://github.com/TonyBaloyi/Portfolio/blob/main/product-backlog.md).
+
+[Continue to Sprint Backlog]({{ '/agile/sprint-backlog/' | relative_url }})

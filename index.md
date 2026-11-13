@@ -7,7 +7,7 @@ permalink: /
 
 <div class="landing-hero">
   <span class="hero-overline">CPUT / ICT APPLICATIONS DEVELOPMENT / CLASS OF 2026</span>
-  <h1>The thinking behind <em>the system.</em></h1>
+  <h1>From community need to <em>system thinking.</em></h1>
   <p class="lead">An evidence-led account of AquaLink: a community water-management concept explored through requirements, data modelling, sprint planning and software delivery. Told from my perspective as the team's assigned Backend Developer.</p>
   <div class="hero-actions">
     <a class="button-link button-link--primary" href="{{ '/agile/' | relative_url }}">Explore the Agile portfolio ↗</a>
@@ -21,8 +21,8 @@ permalink: /
 </div>
 
 <div class="section-heading">
-  <div><span class="section-index">01 / THE PORTFOLIO</span><h2>Five artefacts. One connected journey.</h2></div>
-  <p>Move from the team's working agreements to user needs, product priorities, sprint execution and the chronological record.</p>
+  <div><span class="section-index">01 / THE PORTFOLIO</span><h2>Eight chapters. One connected journey.</h2></div>
+  <p>Follow the five assessed Agile artefacts, then explore the original evidence, an individual engineering reflection and the story behind AquaLink.</p>
 </div>
 
 <div class="dossier-grid">
@@ -31,7 +31,9 @@ permalink: /
   <a class="dossier-card" href="{{ '/agile/product-backlog/' | relative_url }}"><span class="count">03 / PRIORITISATION</span><h3>Product Backlog</h3><p>Feature scope, completed interface work, outstanding integrations and the decisions behind priorities.</p><span class="card-footer">Explore chapter ↗</span></a>
   <a class="dossier-card" href="{{ '/agile/sprint-backlog/' | relative_url }}"><span class="count">04 / ITERATION</span><h3>Sprint Backlog</h3><p>The documented development sequence, dependencies, planned work and evidence of iteration.</p><span class="card-footer">Explore chapter ↗</span></a>
   <a class="dossier-card" href="{{ '/agile/agile-logbook/' | relative_url }}"><span class="count">05 / RETROSPECTIVE</span><h3>Agile Logbook</h3><p>A sourced timeline of the team's work, technical uncertainties and my backend-focused learning.</p><span class="card-footer">Explore chapter ↗</span></a>
-  <a class="dossier-card" href="{{ '/agile/evidence-gallery/' | relative_url }}"><span class="count">APPENDIX / SOURCES</span><h3>Evidence Gallery</h3><p>Source screenshots, links to the original documents and an explicit distinction between team evidence and personal claims.</p><span class="card-footer">Browse evidence ↗</span></a>
+  <a class="dossier-card" href="{{ '/agile/evidence-gallery/' | relative_url }}"><span class="count">06 / THE ARCHIVE</span><h3>Evidence Gallery</h3><p>Sixteen original Trello screenshots, the dated Word logbook and other original artefacts.</p><span class="card-footer">Browse evidence ↗</span></a>
+  <a class="dossier-card" href="{{ '/agile/backend-reflection/' | relative_url }}"><span class="count">07 / PERSONAL REFLECTION</span><h3>Engineering Reflection</h3><p>My experience and learning from the backend workstream, team dependencies and technical credibility.</p><span class="card-footer">Read reflection ↗</span></a>
+  <a class="dossier-card" href="{{ '/agile/our-story/' | relative_url }}"><span class="count">08 / PROJECT PURPOSE</span><h3>Our Story</h3><p>The community challenge, people and product thinking that motivated AquaLink.</p><span class="card-footer">Read our story ↗</span></a>
 </div>
 
 <div class="wide-band">

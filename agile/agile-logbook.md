@@ -167,3 +167,28 @@ The clearest lesson from the record is that planning and implementation are not 
 In my next team project I would attach backend decisions to the story they affect, write down unresolved assumptions and use tests or code history to establish when a technical task is truly finished. I would also distinguish project-wide progress from the work that I can substantiate as my own.
 
 [Read Tony's original timeline and reflection](https://github.com/TonyBaloyi/Portfolio/blob/main/agile-logbook.md) · [Original AquaLink logbook document](https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/documents/AquaLink_Agile_Logbook.docx)
+
+
+## Original document and the seven-phase view
+
+Tony's original dated logbook spans **27 July–29 October 2026** and groups work into completed activities, intended next work and impediments. The original Word document remains available as primary evidence.
+
+[Download the original AquaLink Agile Logbook](https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/documents/AquaLink_Agile_Logbook.docx)
+
+| Phase in later team account | Recorded period | Nature of work |
+|---|---|---|
+| Requirements and stories | 27–31 July | Clarifying scope and user needs |
+| UI/UX and foundations | 3–7 August | Shared styling and interface approach |
+| Architecture and data | 10–14 August | Entities, design and sensor requirements |
+| Admin and Supplier screens | 17–28 August | Role-specific application interfaces |
+| Shared logic and integration | 31 August–11 September | Navigation, reuse and consistency |
+| Testing and review | 14 September–2 October | Regression, responsiveness and quality |
+| Finalisation | October | Documentation, remaining dependencies and presentation |
+
+These are source-attributed team workstreams, not my personal daily entries. For personal assessment evidence, my own dated records would need to be added and checked.
+
+## What this record means for my backend practice
+
+In a future project, I would use a logbook to record not just which technical ticket was discussed but why an architectural assumption changed. For example: which relationship was revised, which endpoint contract was affected, what validation was added and which test demonstrated the result. That level of traceability makes retrospective learning concrete.
+
+[Explore all 16 original screenshots]({{ '/agile/evidence-gallery/' | relative_url }})

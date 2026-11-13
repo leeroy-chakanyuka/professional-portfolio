@@ -207,3 +207,17 @@ body{background:var(--paper);color:var(--ink);line-height:1.75}
 .site-footer a{color:#d8f2d6}
 @media(max-width:1020px){.layout-grid:has(.chapter-rail){display:block}.chapter-rail{position:static;max-height:none;top:auto;padding-top:16px}.chapter-rail a{border-radius:100px}.page-masthead:before{display:none}}
 @media(max-width:700px){.site-header{position:relative}.landing-hero{min-height:auto;border-radius:14px;padding:53px 25px 30px}.landing-hero:before{right:-420px;top:-150px}.landing-hero:after{display:none}.landing-hero h1{font-size:clamp(43px,12vw,61px)}.page-masthead{padding:30px 0}.page-masthead h1{font-size:clamp(40px,11vw,56px)}.dossier-card{min-height:200px;padding:25px}.content-shell table{font-size:12px}.content-shell th,.content-shell td{padding:11px}.wide-band{padding:25px}.nav-shell{padding:13px 18px}.primary-nav{gap:17px}}
+
+/* Evidence archive and chapter details */
+.chapter-intro{font:500 clamp(20px,2.5vw,26px)/1.55 var(--display);letter-spacing:-.03em;color:#2f5546;max-width:780px!important;margin:7px 0 34px!important}
+.evidence-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:30px 0}
+.evidence-stats>div{background:#e8f1e9;border:1px solid #d0e4d5;border-radius:14px;padding:22px}
+.evidence-stats strong{display:block;font:700 38px/1.2 var(--display);color:#174b3a}
+.evidence-stats span{font-size:12px;font-weight:700;color:#4d6e60;line-height:1.5;display:block;margin-top:7px}
+.evidence-mosaic{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:22px 0 38px}
+.archive-item{margin:22px 0 32px;background:#fff;border:1px solid var(--line);border-radius:13px;overflow:hidden}
+.evidence-mosaic .archive-item{margin:0}
+.archive-item img,.content-shell .archive-item img{display:block;width:100%;height:auto;max-height:360px;object-fit:contain;object-position:center;background:#eef2ee;margin:0;border:0;border-radius:0;box-shadow:none}
+.archive-item figcaption{font-size:12px;line-height:1.5;color:#60726a;padding:12px 16px}
+.archive-item figcaption a{font-weight:700}
+@media(max-width:700px){.evidence-mosaic,.evidence-stats{grid-template-columns:1fr}.evidence-stats>div{padding:16px}.archive-item img,.content-shell .archive-item img{max-height:none}}

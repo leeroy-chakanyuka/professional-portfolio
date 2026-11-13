@@ -1,102 +1,127 @@
 ---
 layout: default
-title: "User Stories and Tasks"
-description: "Linking AquaLink's user needs to planned work"
+title: "User Stories & Tasks"
+description: "Requirements, acceptance criteria, implementation tasks and my backend-oriented learning"
 permalink: /agile/user-stories/
 ---
 
-## Evidence: original user-story artefacts
+<p class="chapter-intro">User needs become useful software only when they are translated into clear work, with a way to verify what has actually been delivered.</p>
 
-User stories describe a need from the user's point of view. The associated tasks turn that need into work that can be planned and verified. In AquaLink, stories were considered for **households**, **borehole suppliers** and **administrators**, with a series of research, data-modelling, design and technical-review activities.
+AquaLink explored water distribution and management for households, suppliers and administrators. This chapter follows the same **eleven-part evidence and reflection structure** as the team's later portfolio documentation, but it is written from my assigned backend-development perspective. The user stories and screenshots are **shared project records**, not evidence that I individually implemented every feature.
 
-![AquaLink user stories](https://raw.githubusercontent.com/MologadiD/Portfolio/main/assets/img/stories-1.png)
+## 01. Understanding AquaLink's users
 
-*Source: [Mologadi's user-story screenshot](https://github.com/MologadiD/Portfolio/blob/main/assets/img/stories-1.png).*
+### Administrator
 
-![AquaLink task breakdown](https://raw.githubusercontent.com/MologadiD/Portfolio/main/assets/img/stories-2.png)
+An administrator needs oversight of household records, plans, purchases and operational information. A dashboard can make those areas accessible, but it is only trustworthy if the data is consistent and the viewer has the appropriate permissions.
 
-*Source: [Mologadi's task-breakdown screenshot](https://github.com/MologadiD/Portfolio/blob/main/assets/img/stories-2.png).*
+### Supplier
 
-The following summary draws on [Faith's published AquaLink story breakdown](https://github.com/FaithA965/FaithA965.github.io/blob/main/agile.md#2-user-stories-and-tasks). The source is a teammate's narrative, **not** a verified export of individual Trello assignments.
+A supplier needs to view tanks, refill activities, infrastructure status and alerts. This implies that the system must reliably associate a tank with its supplier, readings and time-based events.
 
-## Story and task mapping
+### Households
 
-| User / desired outcome | Work described in team documentation | Reported sprint |
+A household needs understandable information about its service connection, plan, consumption and payments. For a backend developer, these needs lead to questions about identity, subscriptions, transactions and privacy.
+
+The proposed functionality should not be mistaken for verified production deployment. The [original project story]({{ '/agile/our-story/' | relative_url }}) explains how AquaLink's scope evolved.
+
+## 02. Evidence of requirements analysis
+
+Tony's dated logbook records requirements clarification in late July 2026. The following is a **summary of team activities**, not my personal attendance register.
+
+| Date | Shared activity recorded | Why it mattered |
 |---|---|---|
-| Resident needing reliable water | Research the water-access problem, household needs and service model | 1 |
-| Household requesting a connection | Identify required household details and map the request journey | 1 |
-| Borehole owner registering supply | Identify supplier information and proposed monitoring requirements | 1 |
-| Household managing subscriptions, payments and usage | Define entities and relationships joining households, plans, transactions and usage | 2 |
-| Borehole owner managing water-source information | Define borehole/supplier entities and attributes; develop the ERD | 2 |
-| User expecting consistent navigation | Develop shared typography, controls, colours and responsive layout | 3 |
-| Administrator overseeing supply | Review architecture, relationships and access to operational data | 4 |
+| 27 July 2026 | Scope and user stories were reviewed | Established initial Admin and Supplier needs |
+| 28 July 2026 | Supplier and household requirements were discussed | Exposed relationships between users and records |
+| 29 July 2026 | Plans, purchases, tanks, refills and alerts were grouped | Created a connection between requirements and backlog items |
+| 30 July 2026 | Role-specific navigation was considered | Clarified what each user should be able to access |
+| 31 July 2026 | Story scope and priorities were consolidated | Prepared subsequent technical work |
 
-## Relevance to my allocated backend role
+**Primary source:** [AquaLink Agile Logbook](https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/documents/AquaLink_Agile_Logbook.docx). Earlier shared requirements evidence is also published in [Faith's team portfolio](https://github.com/FaithA965/FaithA965.github.io/blob/main/agile.md).
 
-My assigned responsibility was **REST API development, database schema and business logic**. The backend-related story work therefore depended on requirements that were often identified before implementation.
+## 03. User stories and related features
 
-A household-account story, for example, raises specific technical questions: Which record represents the household? How does it link to a service plan? How are payments and water usage associated with the correct account? Which part of the application enforces each rule? The data-model sprint addressed relationships between these concepts; the technical-review sprint provided a later point at which the design could be challenged.
+The six representative stories below are derived from the team's later story mapping. They describe **user needs**, not verified end-to-end functionality.
 
-This demonstrates why a developer should separate **story definition**, **design**, **implementation** and **verification**. A planned data relationship or approved story is not the same as a working and tested endpoint.
-
-## User-story quality and acceptance criteria
-
-The project's documentation highlights the value of breaking a broad goal into smaller tasks. A strong technical acceptance criterion should be specific enough to verify: the required data is valid, linked to the correct entity, handled consistently for failures and accepted by the relevant user role. These are recommendations for quality, not claims about a completed AquaLink API test suite.
-
-## User stories from the later application record
-
-Tony's [User Stories and Tasks portfolio](https://github.com/TonyBaloyi/Portfolio/blob/main/user-stories-and-tasks.md) describes an application focused on **Administrator** and **Supplier** sign-in roles. Households were represented through records and subscriptions rather than confirmed as users of a separate consumer application. This is an important distinction between the original vision and the interfaces described in the later logbook.
-
-The following IDs are **portfolio traceability labels**, not a claim to reproduce exact Trello card identifiers.
-
-| ID | User need, expressed as a story | Related proposed feature |
+| ID | User story | Linked screen or capability |
 |---|---|---|
-| US-01 | As an administrator, I need an operational overview so I can review platform activity. | Admin dashboard |
-| US-02 | As an administrator, I need household information so I can inspect records and supplier assignments. | Household list and detail |
-| US-03 | As an administrator, I need plan and purchase information so I can track subscription-related records. | Plans and purchases |
-| US-04 | As a supplier, I need tank details so I can review water infrastructure status. | Tanks overview and details |
-| US-05 | As a supplier, I need refill history so I can inspect earlier activity. | Refill history |
-| US-06 | As a supplier, I need relevant alerts so I can respond to operational issues. | Supplier and sensor alerts |
+| US-01 | As an administrator, I want an operational overview so I can inspect relevant platform activity. | Admin dashboard |
+| US-02 | As an administrator, I want household details so I can understand household accounts and assignments. | Household list and detail |
+| US-03 | As an administrator, I want plans and purchases so I can understand subscription activity. | Plans and purchase screens |
+| US-04 | As a supplier, I want tank information so I can monitor infrastructure conditions. | Tank overview and detail |
+| US-05 | As a supplier, I want refill history so I can review previous activities. | Refill history |
+| US-06 | As a supplier, I want operational alerts so I can identify issues needing attention. | Supplier and sensor alerts |
 
-## From a story to a backend acceptance criterion
+## 04. From user story to development task
 
-A story is not sufficient until its **testable behaviour** is clear. As a worked example, consider US-02 (household records). A backend plan would need to determine:
+A story identifies value; a development task breaks the outcome into manageable work. The following is a **proposed backend task decomposition**, not a recreated personal Trello history.
 
-1. Which household fields are required, optional or protected.
-2. How a household maps to a supplier or service plan.
-3. Who may view, create or change each record.
-4. What response is expected when the record does not exist or validation fails.
-5. What evidence proves the data persists and is associated with the correct user.
+### Household information
 
-These are **proposed acceptance questions**, not statements that AquaLink passed these tests.
+For US-02, a sound technical breakdown would define household identity and supplier relationships, establish the read contract, validate authorisation and test both list and individual-record responses. The interface can then present the same information consistently across screens.
 
-## Feature and integration traceability
+### Tank monitoring
 
-| User-facing capability reported in the logbook | Backend dependency to verify | Evidence still required for an end-to-end claim |
+For US-04, technical tasks should cover a tank identifier, supplier ownership, status, reading values, units and timestamps. The service also needs a clear distinction between live sensor values, test data and unavailable measurements.
+
+### Operational alerts
+
+For US-06, the team needs agreement on alert severity, the conditions that trigger an event, who may view it and what qualifies as a resolved alert. The interface is only the visible part of this workflow.
+
+## 05. Acceptance criteria
+
+Acceptance criteria turn a proposed feature into something that can be checked. I would separate interface checks from the additional backend checks needed for a complete service.
+
+| Story | User-visible acceptance check | Backend evidence needed |
 |---|---|---|
-| Household detail page | Stable household model and retrieval API | Endpoint contract, sample response, test and stored record |
-| Plan and purchase screens | Subscription and transaction relationships | Persistence and verified payment-provider interaction |
-| Tank monitoring screen | Tank and reading data contracts | Data source and, for real IoT claims, connected hardware |
-| Operational alerts | Event schema and alert lifecycle | Trigger logic, handling, storage and tests |
+| US-01 | Clear dashboard with usable navigation | Verified data query and access rules |
+| US-02 | Household list and details agree | Persistence and authorised household lookup test |
+| US-03 | Purchases have accurate statuses | Valid state transitions and payment-provider test if live payments are claimed |
+| US-04 | Tank status and values are understandable | Reading provenance, timestamps and consistent data mapping |
+| US-05 | Refill events show their tank and date | Persisted history in a repeatable test |
+| US-06 | Alert urgency and status are clear | Alert rule, storage and permissions tests |
 
-The [original team logbook](https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/documents/AquaLink_Agile_Logbook.docx) identifies some of these integrations as outstanding at the documented point in the project. A visible screen does not establish that all dependencies were fulfilled.
+The backend column is **my proposed acceptance standard**. It must not be read as a declaration that the team finished those tests.
 
-## Personal reflection (STAR) — draft for review
+## 06. My backend contribution and perspective
 
-<a id="personal-reflection"></a>
+The published team charter assigned me responsibility for REST APIs, relational data design and business logic. Those responsibilities make requirements analysis especially relevant to my role: one ambiguous story can affect a database relationship, an endpoint and the interpretation of several screens.
 
-**Situation.** AquaLink began with a community water problem, but that broad problem needed to be translated into requirements for very different users. A household, supplier and administrator do not need the same information or actions.
+I would prioritise clarification of who owns each data record, how actions change state, and how errors are shown to the user. These are engineering lessons supported by the project context. The shared documents do not establish an individually verified list of endpoints I completed.
 
-**Task.** As the Backend Developer, my allocated responsibility was to connect those requirements to the data model and planned backend functionality, rather than treating endpoints as isolated pieces of code.
+## 07. Original user-story evidence
 
-**Action.** The team story record shows a progression from identifying household and supplier needs during research to defining their relationships in the schema, followed by a technical review. Looking at the household-account requirement shows how a story's purpose informs which entities and rules must be considered. This also demonstrates the need to confirm assumptions with the team before finalising API behaviour.
+The following are source-linked screenshots from the later team's published evidence collection.
 
-**Result and learning.** Writing and refining stories around user value creates a stronger basis for technical decisions. The key lesson is to clarify what the user needs and what counts as an acceptable outcome **before** deciding how the backend should implement it. In future, I would request explicit acceptance criteria and link each backend task to its originating story.
+<figure class="archive-item"><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-12.jpg"><img loading="lazy" src="https://raw.githubusercontent.com/TonyBaloyi/Portfolio/main/evidence/trello/trello-12.jpg" alt="Original AquaLink Trello requirements screenshot 12"></a><figcaption>Requirements and task evidence · <a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-12.jpg">Original screenshot 12</a></figcaption></figure>
 
-> **Personal check before submission:** Add the exact story IDs/cards and specify which database or API tasks you actually completed. No undocumented implementation is claimed here.
+<figure class="archive-item"><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-13.jpg"><img loading="lazy" src="https://raw.githubusercontent.com/TonyBaloyi/Portfolio/main/evidence/trello/trello-13.jpg" alt="Original AquaLink Trello requirements screenshot 13"></a><figcaption>Requirements and task evidence · <a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-13.jpg">Original screenshot 13</a></figcaption></figure>
 
-## References
+Additional shared evidence: [Faith's story records](https://github.com/FaithA965/FaithA965.github.io/blob/main/agile.md), [Mologadi's story image 1](https://github.com/MologadiD/Portfolio/blob/main/assets/img/stories-1.png), [image 2](https://github.com/MologadiD/Portfolio/blob/main/assets/img/stories-2.png), and [the original logbook](https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/documents/AquaLink_Agile_Logbook.docx).
 
-- [Faith Adams — AquaLink user stories and tasks](https://github.com/FaithA965/FaithA965.github.io/blob/main/agile.md#2-user-stories-and-tasks).
-- [Mologadi Dikgale — project story screenshots](https://github.com/MologadiD/Portfolio/tree/main/assets/img).
-- [AquaLink Trello](https://trello.com/b/5lxVBUSK/aqualink).
+## 08. Personal reflection: why acceptance criteria matter
+
+At first glance a user story can look complete once there is a visible page for it. The project helped me distinguish that milestone from a completed service. A purchase screen can demonstrate the intended journey without a live provider. A supplier view can show an example tank reading without a physical sensor.
+
+For someone assigned to backend work, acceptance criteria should remove that ambiguity. The team should be able to state what was implemented, what was tested and what remains simulated. This is the standard I want to hold myself to, even when presentation deadlines create pressure to describe a feature as more complete than the evidence allows.
+
+## 09. What I would improve
+
+1. Attach an owner and acceptance criteria to each story before planning the sprint.
+2. Make database, security, service and UI tasks separately visible.
+3. Identify dependencies on hardware or third-party providers early.
+4. Add explicit error and permission scenarios, not only the ideal path.
+5. Link every claimed completion to a verifiable artefact.
+6. Record changes to story scope rather than silently replacing the initial requirement.
+
+## 10. Connection to Agile practice
+
+Scrum treats the Product Backlog as an evolving description of work, with refinement adding details such as order and size. A clear story and its acceptance criteria help make an increment inspectable. For AquaLink, I would apply this by separating a screen-level increment from a fully integrated workflow when those are demonstrably different.
+
+**Reference:** Schwaber, K. and Sutherland, J. (2020), [The Scrum Guide](https://scrumguides.org/scrum-guide.html).
+
+## 11. Final reflection
+
+A user story is a promise to solve a user's problem, not a list of screens to draw. Its value becomes credible when requirements, technical tasks and acceptance evidence point to the same outcome. The AquaLink records provide the shared context; my next step in any individual assessment is to attach only the personal work that I can verify.
+
+[← Agile Team Charter]({{ '/agile/team-charter/' | relative_url }}) · [Product Backlog →]({{ '/agile/product-backlog/' | relative_url }})
