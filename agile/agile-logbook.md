@@ -130,3 +130,65 @@ This table is intentionally not populated with someone else's daily accomplishme
 - [Faith Adams — AquaLink Agile Logbook and four early sprints](https://github.com/FaithA965/FaithA965.github.io/blob/main/agile.md#5-agile-logbook)
 - [Mologadi Dikgale — Agile logbook screenshots](https://github.com/MologadiD/Portfolio/tree/main/assets/img)
 - [AquaLink Trello Board](https://trello.com/b/5lxVBUSK/aqualink)
+
+## 11. How the later logbook connects technical work and delivery
+
+Tony's dated record is particularly useful because it distinguishes *completed*, *planned* and *impeded* activities. Reading it from a backend perspective reveals a recurrent theme: the relationship between a screen that represents intended data and a system that can actually persist, validate and retrieve that data.
+
+| Development phase | Team-reported evidence | Backend question I would raise |
+|---|---|---|
+| Requirements (July) | Stories and scope reviewed | Which rules determine a valid household or supplier? |
+| Interface foundations (early August) | Shared UI and consistency work | What response shape will every screen expect? |
+| Architecture (mid-August) | Database and sensor requirements discussed | How are readings associated with tanks and timestamps? |
+| Role-specific screens (late August) | Admin and Supplier pages developed | Which endpoints and permissions support these views? |
+| Shared logic (September) | Navigation and reuse reviewed | How will clients handle unavailable or invalid data? |
+| Testing and finalisation (September–October) | Regression review and remaining integrations noted | Which flows were actually verified end-to-end? |
+
+The final column records questions I would ask as a backend developer; it is not a retrospective claim that I asked them on those dates.
+
+## 12. A verifiable individual-entry standard
+
+My individual logbook would be strongest if each entry connected the planned work to an independently inspectable outcome. This is the record format I would apply to evidence I can personally verify:
+
+| Field | What belongs here |
+|---|---|
+| Date and task reference | Actual work date and Trello/issue identifier |
+| Work completed | Specific API, entity, rule, schema or review contribution |
+| Evidence | Commit, PR, approved ERD, test result or message |
+| Blocker and resolution | What prevented progress and who resolved it |
+| Next action | The next verifiable development step |
+
+Without those records, the published July–October chronology remains attributed shared context. Reusing its dates as my personal daily work would make the portfolio less reliable, not more complete.
+
+## 13. My final learning from the chronological record
+
+The clearest lesson from the record is that planning and implementation are not interchangeable. Early uncertainty about the water-service model flowed into database questions, and unresolved integrations remained visible even after interface work progressed. A useful logbook makes that relationship traceable.
+
+In my next team project I would attach backend decisions to the story they affect, write down unresolved assumptions and use tests or code history to establish when a technical task is truly finished. I would also distinguish project-wide progress from the work that I can substantiate as my own.
+
+[Read Tony's original timeline and reflection](https://github.com/TonyBaloyi/Portfolio/blob/main/agile-logbook.md) · [Original AquaLink logbook document](https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/documents/AquaLink_Agile_Logbook.docx)
+
+
+## Original document and the seven-phase view
+
+Tony's original dated logbook spans **27 July–29 October 2026** and groups work into completed activities, intended next work and impediments. The original Word document remains available as primary evidence.
+
+[Download the original AquaLink Agile Logbook](https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/documents/AquaLink_Agile_Logbook.docx)
+
+| Phase in later team account | Recorded period | Nature of work |
+|---|---|---|
+| Requirements and stories | 27–31 July | Clarifying scope and user needs |
+| UI/UX and foundations | 3–7 August | Shared styling and interface approach |
+| Architecture and data | 10–14 August | Entities, design and sensor requirements |
+| Admin and Supplier screens | 17–28 August | Role-specific application interfaces |
+| Shared logic and integration | 31 August–11 September | Navigation, reuse and consistency |
+| Testing and review | 14 September–2 October | Regression, responsiveness and quality |
+| Finalisation | October | Documentation, remaining dependencies and presentation |
+
+These are source-attributed team workstreams, not my personal daily entries. For personal assessment evidence, my own dated records would need to be added and checked.
+
+## What this record means for my backend practice
+
+In a future project, I would use a logbook to record not just which technical ticket was discussed but why an architectural assumption changed. For example: which relationship was revised, which endpoint contract was affected, what validation was added and which test demonstrated the result. That level of traceability makes retrospective learning concrete.
+
+[Explore all 16 original screenshots]({{ '/agile/evidence-gallery/' | relative_url }})

@@ -1,34 +1,36 @@
 ---
 layout: default
-title: "The Story Behind AquaLink"
-description: "The community challenge, evolving product idea and the role of technology in the solution."
+title: "Our Story"
+description: "The water-access challenge behind AquaLink and why community-centred engineering matters."
 permalink: /agile/our-story/
 ---
 
-## A problem worth understanding
+<p class="chapter-intro">AquaLink began with a practical question: how could the technical skills we were learning be directed towards more reliable community water access?</p>
 
-AquaLink was proposed around a practical issue: reliable household access to water in **Muraleni, Limpopo**. For a community-facing service, technical success would mean more than producing a set of attractive screens. The proposed approach needed to account for people, infrastructure, supply, payments and operational records.
+## The reality that inspired us
 
-The team's published accounts describe a progression from an initial water-delivery idea towards a permanent distribution network with digital support. That change shows why useful software begins with discovery rather than a fixed feature list.
+The project was framed around the challenge of household water access in **Muraleni, Limpopo**. For communities dealing with uncertainty around basic infrastructure, the consequences are much wider than inconvenience. A reliable service requires physical supply, usable information and a way to manage recurring operations.
 
-## Connecting the physical and digital systems
+Our group's published story places people at the centre of the motivation. It connects the opportunity to study information technology with a responsibility to consider communities that do not always benefit equally from it. That purpose helped give AquaLink a meaningful direction beyond the immediate academic deliverable.
 
-A water service has relationships that a database can describe but cannot solve alone. A household needs an association with a supply point or plan. Suppliers need access to infrastructure status. Administrators need oversight. If sensor readings are proposed, the design must also distinguish hypothetical data from actual physical measurements.
+## The birth of AquaLink
 
-AquaLink explored how a platform might support those relationships. It is important to be precise about the status of each technical component, especially when payments, persistence or IoT connections have not been independently demonstrated.
+The team explored a water-delivery concept before moving towards a permanent piped network supported by a digital management system. The proposed application brought together several roles: households receiving a service, suppliers managing water infrastructure and administrators overseeing operations.
 
-## My place in the team
+The planned platform included household information, subscriptions, purchases, tank monitoring, refills and alerts. These are interconnected capabilities. The project documentation shows substantial design and interface activity, but also records integration limitations—so the product vision and the verified working state must be discussed separately.
 
-My original charter assignment was **Backend Developer**, with planned responsibility for APIs, relational data models and business logic. Other teammates worked across management, frontend, design and testing. This portfolio uses original team records where they are available and does not claim that every planned service was completed.
+## My role in the journey
 
-What I find meaningful in this experience is the connection between requirements and engineering decisions: a real problem can motivate a product, but the work of turning that product into a maintainable system requires explicit assumptions, communication and verifiable progress.
+My charter-listed role was **Backend Developer**, with planned responsibilities for REST APIs, data relationships and business rules. My perspective on the project starts with what the system would need to know and enforce: which household belongs to which service, what a transaction means, what counts as a valid reading and who may see or change particular information.
 
-## What the project represents
+That is part of the larger story, not the entire story. The frontend, design, planning and review workstreams were essential to shaping what users would actually experience. Team evidence records many of those activities, and I credit the people and source documents that describe them.
 
-The lesson of AquaLink is not that technology alone resolves a water-access challenge. It is that technical education can be directed towards a community need, provided the team remains attentive to users, constraints and the evidence behind its work.
+## More than a project
 
-The project's purpose remains larger than any one screen or sprint. My contribution to its story is best understood through the backend responsibilities I was assigned and the technical standards I want to develop further.
+AquaLink reminded me that technology is useful only when its design responds to a real situation. A clear screen may help someone understand a service, but it cannot substitute for working infrastructure or reliable backend information. Likewise, a well-designed database matters only if the service built around it addresses a genuine need.
 
-[Back to the portfolio]({{ '/' | relative_url }}) · [See the Agile evidence]({{ '/agile/' | relative_url }}).
+What I take from this experience is a professional obligation to connect technical ambition with honest documentation. The group's purpose deserves to be represented accurately: what we explored, what the team recorded, what remains uncertain and what I personally learned.
 
-*Project context from [Faith Adams](https://github.com/FaithA965/FaithA965.github.io/blob/main/agile.md), [Mologadi Dikgale](https://github.com/MologadiD/Portfolio) and [Tony Baloyi](https://github.com/TonyBaloyi/Portfolio), with individual experience distinguished from shared sources.*
+[Return to the Agile dossier]({{ '/agile/' | relative_url }}) · [Explore the original evidence]({{ '/agile/evidence-gallery/' | relative_url }})
+
+*Shared project context: [Faith Adams](https://github.com/FaithA965/FaithA965.github.io/blob/main/agile.md), [Mologadi Dikgale](https://github.com/MologadiD/Portfolio), and [Tony Baloyi](https://github.com/TonyBaloyi/Portfolio). Individual reflection is original to this portfolio.*

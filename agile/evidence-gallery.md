@@ -1,60 +1,76 @@
 ---
 layout: default
 title: "Evidence Gallery"
-description: "Direct links to original AquaLink records, with sources, dates and attribution kept visible."
+description: "Sixteen original Trello screenshots, dated Agile Logbook, shared artefacts and source attribution"
 permalink: /agile/evidence-gallery/
 ---
 
-The images here are not decorative replacements. They are original **shared team artefacts** published by AquaLink teammates. Their presence documents group planning and progress, not which individual authored each entry.
+<p class="chapter-intro">An archive of the work behind AquaLink: planning screenshots, original logbook records, shared team documents and the sources that support each claim.</p>
 
-## 01. Team charter and working agreements
+These items are **primary team artefacts hosted by teammates**. I have not renamed their dates, represented them as my personal work or generated substitute screenshots. Images below link to Tony's original repository; the shared PDF and other team evidence have their own publishers.
 
-[Read the original shared Team Charter PDF](https://github.com/FaithA965/FaithA965.github.io/blob/main/Agile_Team_Charter.pdf).
+## 01. Evidence collection
 
-![AquaLink shared team charter evidence](https://raw.githubusercontent.com/MologadiD/Portfolio/main/assets/img/charter-1.png)
+<div class="evidence-stats"><div><strong>16</strong><span>Original Trello screenshots</span></div><div><strong>01</strong><span>Dated original Agile Logbook</span></div><div><strong>08</strong><span>Sprint-labelled sections in the board collection</span></div></div>
 
-*Original screenshot: [Mologadi Dikgale, charter evidence](https://github.com/MologadiD/Portfolio/blob/main/assets/img/charter-1.png).*
+Evidence is useful when the assessor can trace the content back to its source. The screenshot numbers below are **file order**, not proof of the dates on which Trello cards were created.
 
-## 02. User stories and task breakdown
+## 02. Original Trello evidence
 
-![AquaLink user story planning artefact](https://raw.githubusercontent.com/MologadiD/Portfolio/main/assets/img/stories-1.png)
+<div class="evidence-mosaic">
+<figure class="archive-item"><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-01.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" src="https://raw.githubusercontent.com/TonyBaloyi/Portfolio/main/evidence/trello/trello-01.jpg" alt="Original AquaLink Trello evidence screenshot 01"></a><figcaption>Evidence 01 · <a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-01.jpg">View original on Tony Baloyi's repository</a></figcaption></figure>
+<figure class="archive-item"><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-02.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" src="https://raw.githubusercontent.com/TonyBaloyi/Portfolio/main/evidence/trello/trello-02.jpg" alt="Original AquaLink Trello evidence screenshot 02"></a><figcaption>Evidence 02 · <a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-02.jpg">View original on Tony Baloyi's repository</a></figcaption></figure>
+<figure class="archive-item"><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-03.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" src="https://raw.githubusercontent.com/TonyBaloyi/Portfolio/main/evidence/trello/trello-03.jpg" alt="Original AquaLink Trello evidence screenshot 03"></a><figcaption>Evidence 03 · <a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-03.jpg">View original on Tony Baloyi's repository</a></figcaption></figure>
+<figure class="archive-item"><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-04.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" src="https://raw.githubusercontent.com/TonyBaloyi/Portfolio/main/evidence/trello/trello-04.jpg" alt="Original AquaLink Trello evidence screenshot 04"></a><figcaption>Evidence 04 · <a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-04.jpg">View original on Tony Baloyi's repository</a></figcaption></figure>
+<figure class="archive-item"><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-05.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" src="https://raw.githubusercontent.com/TonyBaloyi/Portfolio/main/evidence/trello/trello-05.jpg" alt="Original AquaLink Trello evidence screenshot 05"></a><figcaption>Evidence 05 · <a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-05.jpg">View original on Tony Baloyi's repository</a></figcaption></figure>
+<figure class="archive-item"><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-06.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" src="https://raw.githubusercontent.com/TonyBaloyi/Portfolio/main/evidence/trello/trello-06.jpg" alt="Original AquaLink Trello evidence screenshot 06"></a><figcaption>Evidence 06 · <a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-06.jpg">View original on Tony Baloyi's repository</a></figcaption></figure>
+<figure class="archive-item"><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-07.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" src="https://raw.githubusercontent.com/TonyBaloyi/Portfolio/main/evidence/trello/trello-07.jpg" alt="Original AquaLink Trello evidence screenshot 07"></a><figcaption>Evidence 07 · <a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-07.jpg">View original on Tony Baloyi's repository</a></figcaption></figure>
+<figure class="archive-item"><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-08.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" src="https://raw.githubusercontent.com/TonyBaloyi/Portfolio/main/evidence/trello/trello-08.jpg" alt="Original AquaLink Trello evidence screenshot 08"></a><figcaption>Evidence 08 · <a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-08.jpg">View original on Tony Baloyi's repository</a></figcaption></figure>
+<figure class="archive-item"><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-09.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" src="https://raw.githubusercontent.com/TonyBaloyi/Portfolio/main/evidence/trello/trello-09.jpg" alt="Original AquaLink Trello evidence screenshot 09"></a><figcaption>Evidence 09 · <a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-09.jpg">View original on Tony Baloyi's repository</a></figcaption></figure>
+<figure class="archive-item"><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-10.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" src="https://raw.githubusercontent.com/TonyBaloyi/Portfolio/main/evidence/trello/trello-10.jpg" alt="Original AquaLink Trello evidence screenshot 10"></a><figcaption>Evidence 10 · <a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-10.jpg">View original on Tony Baloyi's repository</a></figcaption></figure>
+<figure class="archive-item"><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-11.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" src="https://raw.githubusercontent.com/TonyBaloyi/Portfolio/main/evidence/trello/trello-11.jpg" alt="Original AquaLink Trello evidence screenshot 11"></a><figcaption>Evidence 11 · <a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-11.jpg">View original on Tony Baloyi's repository</a></figcaption></figure>
+<figure class="archive-item"><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-12.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" src="https://raw.githubusercontent.com/TonyBaloyi/Portfolio/main/evidence/trello/trello-12.jpg" alt="Original AquaLink Trello evidence screenshot 12"></a><figcaption>Evidence 12 · <a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-12.jpg">View original on Tony Baloyi's repository</a></figcaption></figure>
+<figure class="archive-item"><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-13.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" src="https://raw.githubusercontent.com/TonyBaloyi/Portfolio/main/evidence/trello/trello-13.jpg" alt="Original AquaLink Trello evidence screenshot 13"></a><figcaption>Evidence 13 · <a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-13.jpg">View original on Tony Baloyi's repository</a></figcaption></figure>
+<figure class="archive-item"><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-14.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" src="https://raw.githubusercontent.com/TonyBaloyi/Portfolio/main/evidence/trello/trello-14.jpg" alt="Original AquaLink Trello evidence screenshot 14"></a><figcaption>Evidence 14 · <a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-14.jpg">View original on Tony Baloyi's repository</a></figcaption></figure>
+<figure class="archive-item"><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-15.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" src="https://raw.githubusercontent.com/TonyBaloyi/Portfolio/main/evidence/trello/trello-15.jpg" alt="Original AquaLink Trello evidence screenshot 15"></a><figcaption>Evidence 15 · <a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-15.jpg">View original on Tony Baloyi's repository</a></figcaption></figure>
+<figure class="archive-item"><a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-16.jpg" target="_blank" rel="noopener noreferrer"><img loading="lazy" decoding="async" src="https://raw.githubusercontent.com/TonyBaloyi/Portfolio/main/evidence/trello/trello-16.jpg" alt="Original AquaLink Trello evidence screenshot 16"></a><figcaption>Evidence 16 · <a href="https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/trello/trello-16.jpg">View original on Tony Baloyi's repository</a></figcaption></figure>
+</div>
 
-*Original screenshot: [Mologadi Dikgale, stories evidence](https://github.com/MologadiD/Portfolio/blob/main/assets/img/stories-1.png). [Second screenshot](https://github.com/MologadiD/Portfolio/blob/main/assets/img/stories-2.png).*
+**Evidence source:** [Tony Baloyi / Portfolio / evidence / trello](https://github.com/TonyBaloyi/Portfolio/tree/main/evidence/trello). For actual task ownership, examine individual card history if authorised access is available.
 
-## 03. Product backlog
+## 03. The original Agile Logbook
 
-![AquaLink product backlog planning artefact](https://raw.githubusercontent.com/MologadiD/Portfolio/main/assets/img/product-backlog-1.png)
+<div class="source-note">
+<strong>Primary dated record: AquaLink Agile Logbook</strong>
 
-*Original screenshot: [Mologadi Dikgale, product backlog](https://github.com/MologadiD/Portfolio/blob/main/assets/img/product-backlog-1.png). [Second screenshot](https://github.com/MologadiD/Portfolio/blob/main/assets/img/product-backlog-2.png).*
+Period reported: <strong>27 July–29 October 2026</strong>.
 
-Tony's later [backlog analysis](https://github.com/TonyBaloyi/Portfolio/blob/main/product-backlog.md) records additional P1/P2 prioritisation at the conclusion of the project.
+[Download the original Word document](https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/documents/AquaLink_Agile_Logbook.docx) · [Read the Agile Logbook analysis]({{ '/agile/agile-logbook/' | relative_url }})
 
-## 04. Sprint backlog and taskboards
+The document belongs to Phatutshedzo (Tony) Baloyi. It is shown as a group source, **not a daily diary authored by Leeroy**.
+</div>
 
-![AquaLink sprint backlog planning artefact](https://raw.githubusercontent.com/MologadiD/Portfolio/main/assets/img/sprint-backlog-1.png)
+## 04. Additional project sources
 
-*Original screenshot: [Mologadi Dikgale, sprint backlog](https://github.com/MologadiD/Portfolio/blob/main/assets/img/sprint-backlog-1.png). [Second screenshot](https://github.com/MologadiD/Portfolio/blob/main/assets/img/sprint-backlog-2.png).*
-
-The four early taskboards are published by Faith: [Sprint 1](https://github.com/FaithA965/FaithA965.github.io/blob/main/Taskboard_Sprint1.png), [Sprint 2](https://github.com/FaithA965/FaithA965.github.io/blob/main/Taskboard_Sprint2.png), [Sprint 3](https://github.com/FaithA965/FaithA965.github.io/blob/main/Taskboard_Sprint3.png) and [Sprint 4](https://github.com/FaithA965/FaithA965.github.io/blob/main/Taskboard_Sprint4.png).
-
-## 05. Agile logbooks
-
-![AquaLink shared logbook screenshot](https://raw.githubusercontent.com/MologadiD/Portfolio/main/assets/img/logbook-1.png)
-
-*Original screenshot: [Mologadi Dikgale, team logbook evidence](https://github.com/MologadiD/Portfolio/blob/main/assets/img/logbook-1.png). [Second screenshot](https://github.com/MologadiD/Portfolio/blob/main/assets/img/logbook-2.png).*
-
-[Download Tony's original dated AquaLink Agile Logbook (DOCX)](https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/documents/AquaLink_Agile_Logbook.docx) — source record for the later July–October phases. This is Tony's document, **not** a document authored by Leeroy.
-
-## 06. Source map
-
-| Team source | Relevant evidence |
+| Source | What it supports |
 |---|---|
-| [Faith Adams's Agile portfolio](https://github.com/FaithA965/FaithA965.github.io/blob/main/agile.md) | Team charter, early sprint board links, story development |
-| [Mologadi Dikgale's portfolio](https://github.com/MologadiD/Portfolio) | Shared charter, backlog, user story and logbook screenshots |
-| [Tony Baloyi's portfolio](https://github.com/TonyBaloyi/Portfolio) | Later team logbook, priorities, reflections and Trello images |
-| [AquaLink Trello](https://trello.com/b/5lxVBUSK/aqualink) | Original group taskboard referenced in earlier planning |
-| [Evidence register]({{ '/agile/evidence-register/' | relative_url }}) | Claim-by-claim attribution and gaps |
+| [Faith Adams's Agile portfolio](https://github.com/FaithA965/FaithA965.github.io/blob/main/agile.md) | Earlier charter, roles, requirements and sprint notes |
+| [Original team charter PDF](https://github.com/FaithA965/FaithA965.github.io/blob/main/Agile_Team_Charter.pdf) | Shared purpose, values and working agreements |
+| [Mologadi Dikgale's portfolio](https://github.com/MologadiD/Portfolio/tree/main/assets/img) | Charter, story, backlog, sprint and logbook screenshots |
+| [Tony Baloyi's portfolio](https://github.com/TonyBaloyi/Portfolio) | Later logbook, priority list, Trello screenshots and his personal account |
+| [Tony's AquaLink source repository](https://github.com/TonyBaloyi/AquaLink) | An associated project code repository; authorship of individual work requires commit-level evidence |
+| [Earlier AquaLink Trello board](https://trello.com/b/5lxVBUSK/aqualink) | Team board linked from earlier portfolio records |
+| [Later AquaLink Trello invitation](https://trello.com/invite/b/6a61c8f1356d8a59c782231c/ATTIf9d9fdf7ec47fcd3745825ca9a054a2898604B70/aqualink) | Additional board link in Tony's records |
+| [Evidence and attribution register]({{ '/agile/evidence-register/' | relative_url }}) | Explicit evidence limits and checks still needed |
 
-## Verification still needed for personal assessment
+Board links may require permission. The source screenshots remain available through the original repository even if the live board is restricted.
 
-To claim individual completed backend work, attach a dated commit, assigned card, PR, test or technical artefact that establishes **my contribution**. The separate [personal logbook table]({{ '/agile/agile-logbook/' | relative_url }}) remains explicitly unfilled until that evidence is available. This is intentional: preserving authenticity is more useful than presenting a polished but unverifiable timeline.
+## 05. My reflection on evidence and accountability
+
+A portfolio should make it easier, not harder, to tell what happened. A charter establishes intended working arrangements; a backlog establishes intended priorities; a screenshot shows a recorded state; and a dated logbook provides a narrative of activity. None of these alone proves which developer authored a particular change.
+
+As the assigned backend developer, I find that distinction especially important. A purchase screen does not verify payment processing; a tank view does not verify a live sensor; an ERD does not verify persistence. The strongest evidence would connect a story to its task, code, test and review history.
+
+I want this portfolio to remain accurate even where supporting personal records are incomplete. The practical improvement for future work is to save verification evidence as tasks are completed rather than reconstruct it at the end of a semester.
+
+[← Agile Logbook]({{ '/agile/agile-logbook/' | relative_url }}) · [Backend Reflection →]({{ '/agile/backend-reflection/' | relative_url }})
