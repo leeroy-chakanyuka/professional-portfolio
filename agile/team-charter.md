@@ -104,3 +104,29 @@ The charter therefore matters technically: if one team member assumes a fully co
 - [Faith Adams — AquaLink charter summary and team roles](https://github.com/FaithA965/FaithA965.github.io/blob/main/agile.md).
 - [Mologadi Dikgale — AquaLink charter screenshots](https://github.com/MologadiD/Portfolio/tree/main/assets/img).
 - [Original team charter PDF](https://github.com/FaithA965/FaithA965.github.io/blob/main/Agile_Team_Charter.pdf).
+
+## Charter assessment: agreements compared with delivery evidence
+
+A strong charter can be tested against the project's recorded decisions, rather than judged only by its wording. The shared charter supplies the team roles and intended values; the dated logbook and boards show which coordination activities were actually reported.
+
+| Charter concern | What the evidence establishes | What remains uncertain | Backend lesson |
+|---|---|---|---|
+| Ownership | Named roles and shared planning artefacts | Assignment and completion of every individual card | Each service and data task needs a named owner and reviewer |
+| Communication | WhatsApp and planning meetings were identified | Whether every stand-up occurred | Record decisions alongside the affected API or schema |
+| Iteration | Early weekly sprint boards and later roadmap reviews exist | Consistent adherence to the original two-week cadence | Re-estimate work when sprint length changes |
+| Quality | Team records describe screen checks and regression review | End-to-end API and persistence test coverage | Define 'done' with testable results |
+| Accountability | Progress and impediments were logged | Each person's response to a specific blocker | Escalate unresolved technical dependencies before integration |
+
+### My proposed backend working agreement
+
+For a future team project, I would propose the following *new* agreement rather than portray it as a rule adopted by AquaLink: changes to the data model should include an updated ERD, migration or schema change, API contract impact and a test plan. Any task blocked by a product decision should name the decision-maker and expected resolution. A completed UI mock-up should never be labelled as an integrated backend feature without an end-to-end check.
+
+## Reflection: from role allocation to shared accountability
+
+My assigned position gave me a particular lens on the charter. A backend workstream can appear self-contained, but it depends on agreed business rules from the product side and stable expectations from frontend contributors. A supplier's tank record, for example, may affect administrator oversight, household information and monitoring screens simultaneously.
+
+What I take from the project is the distinction between *knowing who is responsible* and *having a reliable way to verify work*. The team charter addressed the first question; tracking links between requirements, technical tasks and verifiable outcomes would strengthen the second.
+
+This reflection describes my interpretation of the shared evidence. It does not claim that I authored Tony's logbook, chaired every recorded meeting or personally completed every listed integration.
+
+[Read Tony's later coordination record](https://github.com/TonyBaloyi/Portfolio/blob/main/agile-team-charter.md) · [Open the original team charter](https://github.com/FaithA965/FaithA965.github.io/blob/main/Agile_Team_Charter.pdf)
