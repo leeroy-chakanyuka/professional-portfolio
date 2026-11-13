@@ -5,8 +5,6 @@ description: "AquaLink's shared purpose, roles, working agreements and changes"
 permalink: /agile/team-charter/
 ---
 
-[← Agile hub]({{ '/agile/' | relative_url }})
-
 ## Evidence: the actual team charter
 
 The AquaLink team designed a proposal to improve household access to water in **Muraleni, Limpopo**, connecting households, borehole suppliers and administrators through a digital platform alongside a planned physical distribution network.
@@ -52,6 +50,40 @@ The team's reported values include community focus, transparency, accountability
 ## Changes that tested the charter
 
 Two issues in the shared project history show why a charter must remain adaptable. First, the original charter anticipated **two-week sprints** but the initial documented sprints ran on roughly **one-week cycles**. Second, project scope changed as the water-service concept and user requirements developed. An effective charter should record such changes rather than leave the written agreements detached from reality.
+
+## Coordination practices visible in the later team record
+
+The later [AquaLink Agile Logbook maintained by Tony](https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/documents/AquaLink_Agile_Logbook.docx) includes examples of requirements review, interface feedback and outstanding-task analysis. The examples below provide **team-level context** about coordination rather than a claim that I led each meeting.
+
+| Date | Documented group activity | What it illustrates |
+|---|---|---|
+| 27 July 2026 | Scope and agreed user stories reviewed | Shared understanding before task assignment |
+| 31 July 2026 | User-story scope and priorities consolidated | Coordinating the next workstream |
+| 7 August 2026 | UI feedback and outstanding screens reviewed | Making dependencies visible |
+| 22 October 2026 | Remaining backlog and incomplete integrations considered | Distinguishing progress from unverified completion |
+| 29 October 2026 | Roadmap and final presentation priorities revisited | Adapting as deadlines approached |
+
+A charter is valuable only when it influences actual decisions. These records show a need for regular inspection, but they do not prove that every proposed communication rule was followed or that everyone agreed to a signed charter.
+
+## Evidence versus retrospective proposals
+
+The [original team charter PDF](https://github.com/FaithA965/FaithA965.github.io/blob/main/Agile_Team_Charter.pdf) is evidence of documented team intentions. Tony's later portfolio notes limitations around the team's formal agreement. Rather than erase this difference, my evaluation separates **what the original artefact says**, **what the project records show** and **what I would change next time**.
+
+| Practice | Evidence available | Improvement I would recommend |
+|---|---|---|
+| Responsibility allocation | Named roles and workstreams | Record a primary owner and reviewer for each technical task |
+| Communication | WhatsApp, meetings and planned stand-ups | Capture decisions and blockers against the associated backlog item |
+| Scope changes | Delivery concept evolved into network-based model | Log scope and business-rule changes with their effect on the data model |
+| Quality | Reviews and reported testing activities | Define a checkable completion standard for each API and workflow |
+| Accountability | Tasks and progress were recorded | Agree in advance how missed deadlines are escalated |
+
+These improvements are **recommendations**, not invented historical commitments.
+
+## Backend-specific coordination decisions
+
+The decisions most likely to affect my assigned workstream were about entity ownership, access control, state changes and integration boundaries. An administrator viewing households, for example, depends on a shared agreement about the household record and whether that information comes from a persistent service or a demonstration dataset.
+
+The charter therefore matters technically: if one team member assumes a fully connected payment process while another implements only an interface, the discrepancy can survive until final testing. A written decision about integration scope, expected data and definition of done would make the dependency explicit.
 
 ## Personal reflection (STAR) — draft for review
 

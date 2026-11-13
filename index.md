@@ -1,27 +1,57 @@
 ---
 layout: default
 title: "Leeroy Chakanyuka"
-description: "Software Developer · StarPath Founder · ICT Applications Development"
+description: "AquaLink portfolio of evidence and backend development reflections"
 permalink: /
 ---
 
-## October 2026 Assessment 2 — quick guide for assessors
+<div class="landing-hero">
+  <span class="hero-overline">CPUT / ICT APPLICATIONS DEVELOPMENT / CLASS OF 2026</span>
+  <h1>The thinking behind <em>the system.</em></h1>
+  <p class="lead">An evidence-led account of AquaLink: a community water-management concept explored through requirements, data modelling, sprint planning and software delivery. Told from my perspective as the team's assigned Backend Developer.</p>
+  <div class="hero-actions">
+    <a class="button-link button-link--primary" href="{{ '/agile/' | relative_url }}">Explore the Agile portfolio ↗</a>
+    <a class="button-link" href="{{ '/agile/evidence-gallery/' | relative_url }}">View the evidence</a>
+  </div>
+  <div class="hero-meta">
+    <div><strong>05</strong> ASSESSED ARTEFACTS</div>
+    <div><strong>2026</strong> ACADEMIC YEAR</div>
+    <div><strong>BACKEND</strong> MY DOCUMENTED ROLE</div>
+  </div>
+</div>
 
-The Project Presentation 3 rubric awards **10 marks for evidence and 10 marks for reflection** for each of the five Agile artefacts. Each item below links directly to the supporting content and its personal-reflection draft.
+<div class="section-heading">
+  <div><span class="section-index">01 / THE PORTFOLIO</span><h2>Five artefacts. One connected journey.</h2></div>
+  <p>Move from the team's working agreements to user needs, product priorities, sprint execution and the chronological record.</p>
+</div>
 
-| Assessed deliverable | Evidence and analysis | STAR reflection |
-|---|---|---|
-| Agile Team Charter | [View charter]({{ '/agile/team-charter/' | relative_url }}) | [Read reflection]({{ '/agile/team-charter/' | relative_url }}#personal-reflection) |
-| User Stories and Tasks | [View user stories]({{ '/agile/user-stories/' | relative_url }}) | [Read reflection]({{ '/agile/user-stories/' | relative_url }}#personal-reflection) |
-| Product Backlog | [View product backlog]({{ '/agile/product-backlog/' | relative_url }}) | [Read reflection]({{ '/agile/product-backlog/' | relative_url }}#personal-reflection) |
-| Sprint Backlog | [View sprint backlog]({{ '/agile/sprint-backlog/' | relative_url }}) | [Read reflection]({{ '/agile/sprint-backlog/' | relative_url }}#personal-reflection) |
-| Agile Logbook | [View logbook]({{ '/agile/agile-logbook/' | relative_url }}) | [Read reflection]({{ '/agile/agile-logbook/' | relative_url }}#personal-reflection) |
+<div class="dossier-grid">
+  <a class="dossier-card" href="{{ '/agile/team-charter/' | relative_url }}"><span class="count">01 / COLLABORATION</span><h3>Agile Team Charter</h3><p>Our shared purpose, responsibilities, working agreements, coordination and their limitations.</p><span class="card-footer">Explore chapter ↗</span></a>
+  <a class="dossier-card" href="{{ '/agile/user-stories/' | relative_url }}"><span class="count">02 / REQUIREMENTS</span><h3>User Stories &amp; Tasks</h3><p>How administrator, supplier and household needs shape the technical plan and acceptance criteria.</p><span class="card-footer">Explore chapter ↗</span></a>
+  <a class="dossier-card" href="{{ '/agile/product-backlog/' | relative_url }}"><span class="count">03 / PRIORITISATION</span><h3>Product Backlog</h3><p>Feature scope, completed interface work, outstanding integrations and the decisions behind priorities.</p><span class="card-footer">Explore chapter ↗</span></a>
+  <a class="dossier-card" href="{{ '/agile/sprint-backlog/' | relative_url }}"><span class="count">04 / ITERATION</span><h3>Sprint Backlog</h3><p>The documented development sequence, dependencies, planned work and evidence of iteration.</p><span class="card-footer">Explore chapter ↗</span></a>
+  <a class="dossier-card" href="{{ '/agile/agile-logbook/' | relative_url }}"><span class="count">05 / RETROSPECTIVE</span><h3>Agile Logbook</h3><p>A sourced timeline of the team's work, technical uncertainties and my backend-focused learning.</p><span class="card-footer">Explore chapter ↗</span></a>
+  <a class="dossier-card" href="{{ '/agile/evidence-gallery/' | relative_url }}"><span class="count">APPENDIX / SOURCES</span><h3>Evidence Gallery</h3><p>Source screenshots, links to the original documents and an explicit distinction between team evidence and personal claims.</p><span class="card-footer">Browse evidence ↗</span></a>
+</div>
 
-[Explore the complete Agile portfolio]({{ '/agile/' | relative_url }}) · [Evidence register and attribution]({{ '/agile/evidence-register/' | relative_url }})
+<div class="wide-band">
+  <div>
+    <span class="section-index">02 / MY POSITION</span>
+    <h2>Backend development is the work beneath the interface.</h2>
+    <p>For AquaLink, my allocated responsibilities concerned REST APIs, the relational model and business rules. The portfolio separates the work our team documented from implementation that would need my individual commits, tests or task records to verify.</p>
+    <a href="{{ '/agile/backend-reflection/' | relative_url }}">Read my backend reflection ↗</a>
+  </div>
+  <div class="fact-list">
+    <div class="fact"><span class="fact-label">The problem</span><strong>Reliable community water access</strong></div>
+    <div class="fact"><span class="fact-label">The system</span><strong>Households · Suppliers · Administration</strong></div>
+    <div class="fact"><span class="fact-label">The learning</span><strong>Design first. Trace changes. Verify delivery.</strong></div>
+  </div>
+</div>
 
-> **Evidence note:** The screenshots and team chronology are attributed to their original AquaLink sources. Personal reflections are drafts requiring final review against my own experience. A teammate's dated logbook is not represented as my individual diary.
-
----
+<div class="section-heading">
+  <div><span class="section-index">03 / BEYOND THE ASSESSMENT</span><h2>The developer behind the portfolio.</h2></div>
+  <p>My technical interests, academic work and independent projects remain part of this portfolio.</p>
+</div>
 
 ## Professional profile
 
@@ -99,12 +129,8 @@ My previous portfolio includes STAR reflections on three learning experiences:
 
 The original, fuller reflections remain in my [README](https://github.com/leeroy-chakanyuka/professional-portfolio/blob/main/README.md).
 
-## Connecting the Agile evidence
 
-The [team charter]({{ '/agile/team-charter/' | relative_url }}) sets out **how the group planned to work**. [User stories]({{ '/agile/user-stories/' | relative_url }}) explain **what users needed**. The [product backlog]({{ '/agile/product-backlog/' | relative_url }}) collects **possible product work**. The [sprint backlog]({{ '/agile/sprint-backlog/' | relative_url }}) shows **short-term priorities**, while the [logbook]({{ '/agile/agile-logbook/' | relative_url }}) provides **chronological team context** and supports reflection.
-
-This structure follows the brief's sequence of **collecting, selecting, reflecting on and connecting** evidence. Shared team material is credited to its source, and distinctions between planned and completed work are maintained.
 
 ---
 
-*References and the original evidence sources are collected in the [AquaLink Evidence Register]({{ '/agile/evidence-register/' | relative_url }}).*
+**Evidence integrity:** AquaLink's shared artefacts are linked and credited. The dated records of other team members are team context, not a reconstructed diary of my own activity. [Read the evidence register]({{ '/agile/evidence-register/' | relative_url }}).

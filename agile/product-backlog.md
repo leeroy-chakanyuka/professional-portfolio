@@ -5,8 +5,6 @@ description: "AquaLink's product scope, planned capabilities, priorities and cha
 permalink: /agile/product-backlog/
 ---
 
-[← Agile hub]({{ '/agile/' | relative_url }})
-
 ## 1. Purpose and original evidence
 
 The product backlog contains everything the project team knows may be needed to provide value. Unlike a sprint backlog, it is not limited to the current iteration. Backlog items may be clarified, reprioritised, divided into smaller tasks or deferred as the team learns more.
@@ -51,7 +49,56 @@ The team narrative describes a shift from a delivery-oriented idea to a permanen
 
 The [four documented sprint taskboards](https://github.com/FaithA965/FaithA965.github.io/blob/main/agile.md#4-sprint-backlog) provide a way to trace the progression from research to a database model, common interface styling and technical design review.
 
-## 5. Personal reflection (STAR) — draft for review
+## 5. Later prioritised backlog from the original logbook
+
+The later AquaLink logbook contains an explicitly prioritised **remaining-work** board. Unlike the earlier conceptual category list, these entries include P1/P2 priority levels. The table is a sourced summary of **team-reported open work**, not a claim that I personally assigned each priority.
+
+| Priority | Recorded backlog item | Delivery implication |
+|---|---|---|
+| P1 | Real database integration | Persistent workflows and create/read/update/delete verification |
+| P1 | Payment integration | Provider setup and real end-to-end transaction verification |
+| P1 | IoT and hardware integration | Connect physical readings or clearly label simulations |
+| P1 | Final documentation and submission | Setup, architecture, limitations and testing evidence |
+| P1 | Demonstration preparation | Stable walkthrough and rehearsed flows |
+| P1 | Live presentation | Explain concept, architecture, implementation and boundaries |
+| P2 | Mobile application | Defer beyond the immediate presentation scope |
+
+*Primary source: [Tony's Product Backlog portfolio](https://github.com/TonyBaloyi/Portfolio/blob/main/product-backlog.md), referencing the [original Agile Logbook](https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/documents/AquaLink_Agile_Logbook.docx).*
+
+## 6. What the team record called complete
+
+The published taskboard records completed **interface and planning work**, including the database schema design, shared styles and logic, navigation, an administrator dashboard, household pages, plans, purchase screens, supplier tank pages, refill history and alerts. It also records screen-level testing, bug fixing and responsive/browser reviews.
+
+A completed **schema design** is not a completed **database integration**. Similarly, an implemented purchase screen is not necessarily a real payment system, and a tank overview is not proof of live IoT sensing.
+
+This distinction matters to backend reporting. There should be separate backlog items for the screen, the data contract, persistence, authorisation and integration verification. Otherwise, a visually complete feature can mask unresolved work.
+
+## 7. How prioritisation changed during finalisation
+
+| Date in the later logbook | Reported activity | Implication for the backlog |
+|---|---|---|
+| 29 July 2026 | Plans, purchases, tank information, refills and alerts organised | Grouped feature requirements |
+| 7 August 2026 | UI feedback mapped to remaining screens | Linked design review to implementation priorities |
+| 5 October 2026 | Completed application reviewed against user stories | Exposed implementation versus integration gaps |
+| 22 October 2026 | Remaining work and task ownership reviewed | Separated delivered and outstanding tasks |
+| 29 October 2026 | Roadmap revisited before presentation | Documentation and stability became immediate priorities |
+
+The larger project vision remained relevant, but the approaching presentation required a different ordering from an open-ended production roadmap.
+
+## 8. Backend dependency ordering — my evaluation
+
+The following is my proposed order **for backend planning**, not a reconstructed historical task assignment.
+
+1. Agree the household, supplier, plan and transaction model.
+2. Define role boundaries and API contracts against user stories.
+3. Implement and test persistence and input validation.
+4. Verify end-to-end workflows with the UI, using a controlled test dataset.
+5. Integrate external providers only when credentials, environments and test evidence are available.
+6. Keep simulated sensor and payment states explicitly labelled until verified.
+
+The logic behind this order is dependency reduction: a payment or monitoring screen can be demonstrated early, but a reliable underlying service requires stable data relationships and verifiable integration points.
+
+## 9. Personal reflection (STAR) — draft for review
 
 <a id="personal-reflection"></a>
 

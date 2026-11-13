@@ -5,8 +5,6 @@ description: "AquaLink team chronology, documented blockers and individual learn
 permalink: /agile/agile-logbook/
 ---
 
-[← Agile hub]({{ '/agile/' | relative_url }})
-
 ## 1. What the logbook demonstrates
 
 The purpose of an Agile logbook is to make work visible over time: what was done, what was planned, what impeded progress, how issues were addressed and what was learned. It supports sprint planning and retrospectives rather than serving only as an attendance register.
@@ -77,7 +75,35 @@ The team used technical review to revisit the architecture and ERD. The original
 
 **How to measure improvement:** Track whether story acceptance criteria and entity relationships were agreed before implementation, and whether blockers were linked to an owner and resolved through review.
 
-## 6. Personal logbook records — to confirm
+## 6. Extended chronology: development through October
+
+Tony's original document provides a second, later source of team-level chronology spanning **27 July to 29 October 2026**. The timeline below extends the earlier summary without presenting Tony's first-person entries as my own.
+
+| Period | Team-reported focus | Interpretation for backend planning |
+|---|---|---|
+| 27–31 July | Scope, stories and navigation requirements | Agree data needs before specifying APIs |
+| 3–7 August | UI foundations and reusable components | Maintain stable expectations between UI and services |
+| 10–14 August | Architecture, entities and tank/sensor data | Clarify IDs, readings, status and timestamps |
+| 17–28 August | Administrator and Supplier screens | Distinguish interface progress from data access |
+| 31 August–11 September | Shared logic and cross-screen consistency | Recheck API assumptions as navigation develops |
+| 14 September–2 October | Testing, review, responsiveness and bug fixing | Separate screen-level tests from backend integration tests |
+| October | Outstanding integrations, documentation and demo readiness | Report limitations clearly rather than overstating completion |
+
+*Source: [Tony's Agile Logbook page](https://github.com/TonyBaloyi/Portfolio/blob/main/agile-logbook.md) and the [original dated Word document](https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/documents/AquaLink_Agile_Logbook.docx).*
+
+## 7. What the later record clarifies about project completion
+
+The later logbook describes development of Administrator and Supplier screens and a range of review activities. It also distinguishes those interfaces from unfinished or unverified elements, especially persistent database workflows, payment-provider integration and physical sensor data.
+
+From a backend perspective this is not a small semantic difference. A page can render data without a live persistence layer; a tank widget can show sample readings without connected sensors; and a purchase flow can illustrate the intended interaction without processing a verified payment. A logbook should tell an assessor which of those states exists.
+
+## 8. A stronger logbook method for future work
+
+A verifiable individual entry would include the date, task reference, what changed, the result, a blocker if any and an independent artefact. A Git commit can show a code change; a test result can support behaviour; an issue comment can document a design decision. A screenshot alone may show a screen but does not necessarily establish its author.
+
+The distinction is why the template below remains deliberately open until my own dated records are added.
+
+## 9. Personal logbook records — to confirm
 
 | Date | My actual backend activity | Next action | Blocker / decision | Verifiable evidence |
 |---|---|---|---|---|
@@ -85,7 +111,7 @@ The team used technical review to revisit the architecture and ERD. The original
 
 This table is intentionally not populated with someone else's daily accomplishments. My own commits, notes and task assignments are the appropriate basis for completing it.
 
-## 7. Personal reflection (STAR) — draft for review
+## 10. Personal reflection (STAR) — draft for review
 
 <a id="personal-reflection"></a>
 

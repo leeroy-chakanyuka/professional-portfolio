@@ -1,19 +1,28 @@
 ---
 layout: default
-title: "AquaLink Agile Portfolio"
-description: "Team context, original artefacts and individually verified learning"
+title: "AquaLink · Agile Dossier"
+description: "The complete five-part PRP370 portfolio of evidence, reflections and original project sources."
 permalink: /agile/
 ---
 
-[← Portfolio home]({{ '/' | relative_url }})
+AquaLink explored how digital tools could support water management in **Muraleni, Limpopo**. Its proposed service combined household records, borehole suppliers, subscriptions, water-use information and administrative oversight. The initial delivery idea evolved towards a piped network supported by a digital system.
 
-## Project overview
+<div class="source-note"><strong>Reading this portfolio:</strong> Each assessed chapter distinguishes the shared AquaLink evidence from my individual learning. My team assignment was Backend Developer, responsible for proposed REST APIs, relational data design and business logic. Where there is no verified individual commit, task or test, I do not claim one.</div>
 
-AquaLink is a water-access concept for Muraleni village, Limpopo. Its proposed platform supports households, borehole suppliers and administrators, with subscription and water-usage management. The project originally explored water delivery before shifting toward a permanent pipe-network concept, according to a teammate's retrospective.
+## The assessed chapters
 
-The shared project portfolio lists five members:
+<div class="chapter-card-grid">
+<a href="{{ '/agile/team-charter/' | relative_url }}"><strong>01. Agile Team Charter</strong><span>Purpose, working agreements and accountability</span></a>
+<a href="{{ '/agile/user-stories/' | relative_url }}"><strong>02. User Stories &amp; Tasks</strong><span>User value, data dependencies and acceptance criteria</span></a>
+<a href="{{ '/agile/product-backlog/' | relative_url }}"><strong>03. Product Backlog</strong><span>Features, P1/P2 priorities and refinement</span></a>
+<a href="{{ '/agile/sprint-backlog/' | relative_url }}"><strong>04. Sprint Backlog</strong><span>Iteration planning and delivery boundaries</span></a>
+<a href="{{ '/agile/agile-logbook/' | relative_url }}"><strong>05. Agile Logbook</strong><span>Dated team evidence and technical retrospectives</span></a>
+<a href="{{ '/agile/evidence-gallery/' | relative_url }}"><strong>Appendix. Evidence Gallery</strong><span>Original records and attribution</span></a>
+</div>
 
-| Member | Documented role |
+## The team and my assigned role
+
+| Team member | Role in the published team charter |
 |---|---|
 | Mologadi Dikgale | Project Manager |
 | Uhmar Adams | Lead Developer |
@@ -21,44 +30,32 @@ The shared project portfolio lists five members:
 | Faith Adams | UI/UX Designer |
 | Phatushedzo Baloyi (Tony) | QA Tester |
 
-**Source:** [Faith Adams's AquaLink Agile portfolio](https://github.com/FaithA965/FaithA965.github.io/blob/main/agile.md). These are team-role assignments; they do not by themselves prove that each planned task was completed.
+*Source: [Faith Adams's published AquaLink portfolio](https://github.com/FaithA965/FaithA965.github.io/blob/main/agile.md). Tony's own later portfolio describes project coordination and substantial frontend contributions; those are his personal account, not my responsibilities.*
 
-## Original team evidence now available
+## A chronology from two published source records
 
-Mologadi's repository now has the previously missing screenshots for all five Agile artefacts. Each of the detailed pages displays the corresponding source images and links directly to the originals.
+Two source records cover different ranges, and they should not be mistaken for a single personal logbook.
 
-| Artefact | Shared evidence |
-|---|---|
-| Team charter | [Screenshot 1](https://github.com/MologadiD/Portfolio/blob/main/assets/img/charter-1.png) · [Screenshot 2](https://github.com/MologadiD/Portfolio/blob/main/assets/img/charter-2.png) |
-| User stories | [Screenshot 1](https://github.com/MologadiD/Portfolio/blob/main/assets/img/stories-1.png) · [Screenshot 2](https://github.com/MologadiD/Portfolio/blob/main/assets/img/stories-2.png) |
-| Product backlog | [Screenshot 1](https://github.com/MologadiD/Portfolio/blob/main/assets/img/product-backlog-1.png) · [Screenshot 2](https://github.com/MologadiD/Portfolio/blob/main/assets/img/product-backlog-2.png) |
-| Sprint backlog | [Screenshot 1](https://github.com/MologadiD/Portfolio/blob/main/assets/img/sprint-backlog-1.png) · [Screenshot 2](https://github.com/MologadiD/Portfolio/blob/main/assets/img/sprint-backlog-2.png) |
-| Agile logbook | [Screenshot 1](https://github.com/MologadiD/Portfolio/blob/main/assets/img/logbook-1.png) · [Screenshot 2](https://github.com/MologadiD/Portfolio/blob/main/assets/img/logbook-2.png) |
-
-## Five assessed artefacts
-
-| Artefact | What it documents | Open |
+| Documented period | Focus | Original record |
 |---|---|---|
-| Agile Team Charter | Roles, working agreements, goals, quality expectations | [Charter]({{ '/agile/team-charter/' | relative_url }}) |
-| User Stories and Tasks | Household, supplier and administrator needs | [Stories]({{ '/agile/user-stories/' | relative_url }}) |
-| Product Backlog | Proposed features and changing priorities | [Backlog]({{ '/agile/product-backlog/' | relative_url }}) |
-| Sprint Backlog | Sprint goals, selected work and taskboards | [Sprints]({{ '/agile/sprint-backlog/' | relative_url }}) |
-| Agile Logbook | Dated work records, blockers and learning | [Logbook]({{ '/agile/agile-logbook/' | relative_url }}) |
+| 14–17 July 2026 | Problem and requirements discovery | [Faith's initial Sprint 1](https://github.com/FaithA965/FaithA965.github.io/blob/main/Taskboard_Sprint1.png) |
+| 21–24 July 2026 | Entities, relationships and ERD | [Faith's initial Sprint 2](https://github.com/FaithA965/FaithA965.github.io/blob/main/Taskboard_Sprint2.png) |
+| 28–30 July 2026 | Shared styling and interface work | [Faith's initial Sprint 3](https://github.com/FaithA965/FaithA965.github.io/blob/main/Taskboard_Sprint3.png) |
+| 4–7 August 2026 | Technical architecture review | [Faith's initial Sprint 4](https://github.com/FaithA965/FaithA965.github.io/blob/main/Taskboard_Sprint4.png) |
+| 27 July–29 October 2026 | Extended development, screens, testing and presentation readiness | [Tony's original team logbook](https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/documents/AquaLink_Agile_Logbook.docx) |
 
-## Published initial sprint timeline
+The two timelines overlap but use different reporting conventions. Neither is presented as a record of my personal attendance on every date.
 
-| Sprint | Dates in teammate's records | Workstream |
-|---|---|---|
-| 1 | 14–17 July 2026 | Requirements and community research |
-| 2 | 21–24 July 2026 | Data model, schema and ERD |
-| 3 | 28–30 July 2026 | Shared interface styling |
-| 4 | 4–7 August 2026 | Technical design review |
+## How the artefacts connect
 
-These dates are taken from [Faith's published retrospective](https://github.com/FaithA965/FaithA965.github.io/blob/main/agile.md), not yet verified against the full Trello history. Later activities are not represented as complete until we have additional evidence.
+The **charter** describes roles and the principles by which the team intended to work. **Stories** explain what users needed. The **product backlog** identifies and orders the work that could deliver value. **Sprint backlogs** select a manageable subset. The **logbook** records activity and uncertainty over time.
 
-## Connecting the artefacts
+For backend development, the relationships are tangible: a household user story implies an entity model; the model informs API contracts; the backlog identifies dependencies; the sprint plan allocates work; and the logbook should record evidence of implementation or unresolved blockers.
 
-The charter defines **how we intended to work**. User stories describe **what users need**. The product backlog organises **what the product should include**. Sprint backlogs explain **what the team selected for each iteration**. The logbook will demonstrate **what I actually did, learned and changed**.
+## What the published evidence can establish
 
-For source provenance and missing individual evidence, see the [evidence register]({{ '/agile/evidence-register/' | relative_url }}).
+- Team roles, project scope and shared artefacts can be traced to [Faith's portfolio](https://github.com/FaithA965/FaithA965.github.io/blob/main/agile.md) and [Mologadi's screenshots](https://github.com/MologadiD/Portfolio/tree/main/assets/img).
+- The later dated team record, reported feature states and integration limits can be traced to [Tony's portfolio](https://github.com/TonyBaloyi/Portfolio).
+- My specific delivered endpoints, schema commits, test outcomes and individual day-by-day log remain subject to direct verification. A screenshot of a taskboard does not prove authorship.
 
+**Continue reading:** [Evidence gallery]({{ '/agile/evidence-gallery/' | relative_url }}) · [Personal backend reflection]({{ '/agile/backend-reflection/' | relative_url }}) · [Project story]({{ '/agile/our-story/' | relative_url }})

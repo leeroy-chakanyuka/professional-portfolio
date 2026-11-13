@@ -3,39 +3,61 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0b2736">
+  <meta name="theme-color" content="#f5f3ee">
   <meta name="description" content="{{ page.description | default: site.description | escape }}">
-  <title>{{ page.title | default: site.title | escape }} | Leeroy Chakanyuka</title>
+  <title>{{ page.title | default: site.title | escape }} — Leeroy Chakanyuka</title>
   <link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | relative_url }}">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="nav-shell">
-      <a class="wordmark" href="{{ '/' | relative_url }}">LC<span class="wordmark-dot">.</span><span class="wordmark-name"> Leeroy Chakanyuka</span></a>
-      <nav aria-label="Primary navigation">
-        <a href="{{ '/' | relative_url }}">Portfolio</a>
-        <a href="{{ '/agile/' | relative_url }}">Agile evidence</a>
-        <a href="https://github.com/leeroy-chakanyuka/professional-portfolio">Source</a>
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="Leeroy Chakanyuka home">
+        <span class="brand-symbol">LC<span class="brand-punctuation">/</span></span>
+        <span class="brand-caption">PROJECT<br>FIELDNOTES</span>
+      </a>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Overview</a>
+        <a href="{{ '/agile/' | relative_url }}" {% if page.url contains '/agile/' %}aria-current="page"{% endif %}>Agile portfolio</a>
+        <a href="{{ '/agile/evidence-gallery/' | relative_url }}">Evidence</a>
+        <a href="https://github.com/leeroy-chakanyuka/professional-portfolio">Repository <span aria-hidden="true">↗</span></a>
       </nav>
     </div>
   </header>
-  <div class="hero">
-    <div class="hero-inner">
-      <p class="eyebrow">Professional portfolio · 2026</p>
+  <main id="main" class="site-main {% if page.url == '/' %}site-main--home{% endif %}">
+    {% unless page.url == '/' %}
+    <div class="page-masthead">
+      <div class="masthead-top"><span>CPUT / PRP370 / 2026</span><span>AQUALINK CASE STUDY</span></div>
+      <p class="kicker">Portfolio of evidence <span aria-hidden="true">—</span> Backend perspective</p>
       <h1>{{ page.title | default: site.title | escape }}</h1>
-      <p class="hero-description">{{ page.description | default: site.description | escape }}</p>
+      <p class="masthead-description">{{ page.description | default: site.description | escape }}</p>
     </div>
-  </div>
-  <main id="main" class="content-shell">
-    {{ content }}
+    {% endunless %}
+    <div class="layout-grid">
+      {% if page.url contains '/agile/' %}
+      <aside class="chapter-rail" aria-label="Agile portfolio chapters">
+        <div class="rail-label">EXPLORE THE DOSSIER</div>
+        <a href="{{ '/agile/' | relative_url }}" {% if page.url == '/agile/' %}aria-current="page"{% endif %}><span>00</span> Index</a>
+        <a href="{{ '/agile/team-charter/' | relative_url }}" {% if page.url contains '/team-charter/' %}aria-current="page"{% endif %}><span>01</span> Team charter</a>
+        <a href="{{ '/agile/user-stories/' | relative_url }}" {% if page.url contains '/user-stories/' %}aria-current="page"{% endif %}><span>02</span> User stories</a>
+        <a href="{{ '/agile/product-backlog/' | relative_url }}" {% if page.url contains '/product-backlog/' %}aria-current="page"{% endif %}><span>03</span> Product backlog</a>
+        <a href="{{ '/agile/sprint-backlog/' | relative_url }}" {% if page.url contains '/sprint-backlog/' %}aria-current="page"{% endif %}><span>04</span> Sprint backlog</a>
+        <a href="{{ '/agile/agile-logbook/' | relative_url }}" {% if page.url contains '/agile-logbook/' %}aria-current="page"{% endif %}><span>05</span> Agile logbook</a>
+        <div class="rail-separator"></div>
+        <a href="{{ '/agile/evidence-gallery/' | relative_url }}">↗ &nbsp;Evidence gallery</a>
+        <a href="{{ '/agile/backend-reflection/' | relative_url }}">↗ &nbsp;Backend reflection</a>
+        <a href="{{ '/agile/our-story/' | relative_url }}">↗ &nbsp;Project story</a>
+        <div class="rail-foot">Shared artefacts are credited. Individual achievements require individual proof.</div>
+      </aside>
+      {% endif %}
+      <article class="content-shell">{{ content }}</article>
+    </div>
   </main>
-  <footer class="footer">
+  <footer class="site-footer">
     <div class="footer-inner">
-      <span>Leeroy Chakanyuka · CPUT ICT Applications Development</span>
-      <a href="{{ '/' | relative_url }}">Return to portfolio</a>
+      <div><strong>LC / PROJECT FIELDNOTES</strong><p>Leeroy Chakanyuka · ICT Applications Development · Cape Town</p></div>
+      <div><a href="{{ '/agile/evidence-register/' | relative_url }}">Source & attribution register</a><span>© 2026 Portfolio of Evidence</span></div>
     </div>
   </footer>
 </body>
 </html>
-

@@ -5,8 +5,6 @@ description: "Linking AquaLink's user needs to planned work"
 permalink: /agile/user-stories/
 ---
 
-[← Agile hub]({{ '/agile/' | relative_url }})
-
 ## Evidence: original user-story artefacts
 
 User stories describe a need from the user's point of view. The associated tasks turn that need into work that can be planned and verified. In AquaLink, stories were considered for **households**, **borehole suppliers** and **administrators**, with a series of research, data-modelling, design and technical-review activities.
@@ -44,6 +42,44 @@ This demonstrates why a developer should separate **story definition**, **design
 ## User-story quality and acceptance criteria
 
 The project's documentation highlights the value of breaking a broad goal into smaller tasks. A strong technical acceptance criterion should be specific enough to verify: the required data is valid, linked to the correct entity, handled consistently for failures and accepted by the relevant user role. These are recommendations for quality, not claims about a completed AquaLink API test suite.
+
+## User stories from the later application record
+
+Tony's [User Stories and Tasks portfolio](https://github.com/TonyBaloyi/Portfolio/blob/main/user-stories-and-tasks.md) describes an application focused on **Administrator** and **Supplier** sign-in roles. Households were represented through records and subscriptions rather than confirmed as users of a separate consumer application. This is an important distinction between the original vision and the interfaces described in the later logbook.
+
+The following IDs are **portfolio traceability labels**, not a claim to reproduce exact Trello card identifiers.
+
+| ID | User need, expressed as a story | Related proposed feature |
+|---|---|---|
+| US-01 | As an administrator, I need an operational overview so I can review platform activity. | Admin dashboard |
+| US-02 | As an administrator, I need household information so I can inspect records and supplier assignments. | Household list and detail |
+| US-03 | As an administrator, I need plan and purchase information so I can track subscription-related records. | Plans and purchases |
+| US-04 | As a supplier, I need tank details so I can review water infrastructure status. | Tanks overview and details |
+| US-05 | As a supplier, I need refill history so I can inspect earlier activity. | Refill history |
+| US-06 | As a supplier, I need relevant alerts so I can respond to operational issues. | Supplier and sensor alerts |
+
+## From a story to a backend acceptance criterion
+
+A story is not sufficient until its **testable behaviour** is clear. As a worked example, consider US-02 (household records). A backend plan would need to determine:
+
+1. Which household fields are required, optional or protected.
+2. How a household maps to a supplier or service plan.
+3. Who may view, create or change each record.
+4. What response is expected when the record does not exist or validation fails.
+5. What evidence proves the data persists and is associated with the correct user.
+
+These are **proposed acceptance questions**, not statements that AquaLink passed these tests.
+
+## Feature and integration traceability
+
+| User-facing capability reported in the logbook | Backend dependency to verify | Evidence still required for an end-to-end claim |
+|---|---|---|
+| Household detail page | Stable household model and retrieval API | Endpoint contract, sample response, test and stored record |
+| Plan and purchase screens | Subscription and transaction relationships | Persistence and verified payment-provider interaction |
+| Tank monitoring screen | Tank and reading data contracts | Data source and, for real IoT claims, connected hardware |
+| Operational alerts | Event schema and alert lifecycle | Trigger logic, handling, storage and tests |
+
+The [original team logbook](https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/documents/AquaLink_Agile_Logbook.docx) identifies some of these integrations as outstanding at the documented point in the project. A visible screen does not establish that all dependencies were fulfilled.
 
 ## Personal reflection (STAR) — draft for review
 

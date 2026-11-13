@@ -5,8 +5,6 @@ description: "AquaLink's documented initial sprint goals, evidence and dependenc
 permalink: /agile/sprint-backlog/
 ---
 
-[← Agile hub]({{ '/agile/' | relative_url }})
-
 ## 1. What a sprint backlog shows
 
 A sprint backlog takes selected work from the larger product backlog and gives the development team a short-term goal and a practical plan. The sprint backlog should make the tasks, current progress, ownership, dependencies and remaining work visible.
@@ -50,7 +48,53 @@ A task listed under a sprint is a commitment or planned activity; its presence i
 
 For backend work in Sprint 2 or 4, useful evidence would be an ERD revision, schema commit, design decision, issue, test or API contract. None is claimed as personally completed until it can be verified.
 
-## 6. Personal reflection (STAR) — draft for review
+## 6. Extended project timeline from the later team logbook
+
+Faith's four early sprint boards cover July and early August. Tony's [later dated logbook](https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/documents/AquaLink_Agile_Logbook.docx) covers the wider implementation cycle. The phases below summarise its dated workstreams; they **do not** claim to be the exact numbering of the logbook's referenced eleven-sprint roadmap.
+
+| Period | Team-reported workstream | Important delivery boundary |
+|---|---|---|
+| 27–31 July | Requirements and user stories | Acceptance criteria and scope |
+| 3–7 August | Visual foundations and shared components | Consistency across screens |
+| 10–14 August | Architecture and data requirements | Entities and integration assumptions |
+| 17–21 August | Administrator implementation | Dashboard and household/plan views |
+| 24–28 August | Supplier operations | Tanks, refills and alerts |
+| 31 August–4 September | Shared component logic | Navigation, styles and page consistency |
+| 7–11 September | Integration of screen flows | Cross-page navigation |
+| 14–18 September | Application review | Implementation against requirements |
+| 21–25 September | Quality activities | Admin/Supplier screen tests |
+| 28 September–2 October | Regression and responsiveness | Browser and layout checks |
+| 5–9 October | Integration boundaries | UI completion versus services outstanding |
+| 12–16 October | Documentation | Architecture and business model |
+| 19–23 October | Demo preparation | Outstanding tasks and walkthrough |
+| 26–29 October | Final review | Reprioritisation and readiness |
+
+*Source: [Tony's Sprint Backlog portfolio](https://github.com/TonyBaloyi/Portfolio/blob/main/sprint-backlog.md), summarising the team logbook.*
+
+## 7. Planned, completed and blocked are different states
+
+A useful sprint review should distinguish four claims: **selected work**, **work started**, **work completed** and **work independently verified**. The logbook shows reported interface delivery and review activities while also identifying outstanding database, payment and sensor connections.
+
+The last category matters most for technical reporting. For backend tasks, I would expect to see relevant commits, an executable test or a demonstration of data persistence before marking an end-to-end service complete.
+
+## 8. The practical meaning of a sprint dependency
+
+<div class="mini-grid"><div><h3>Data-first work</h3><p>A household detail screen needs a data contract. The domain model and permission rules should be agreed before treating its backing service as ready.</p></div><div><h3>External integration</h3><p>A purchase screen can be displayed without payment-provider access. A testable payment integration requires an environment, credentials and evidence of outcomes.</p></div></div>
+
+This distinction is a lesson from the published team's delivery record, not a claim that I personally implemented either workflow.
+
+## 9. What I would add to sprint reporting
+
+| Field | Reason to capture it |
+|---|---|
+| Story / task ID | Link sprint work to the product backlog |
+| Owner and reviewer | Clarify responsibility and verification |
+| Dependency | Explain blockers before missed commitments |
+| Acceptance criterion | Decide what completion means |
+| Commit / test / artefact | Give assessors observable evidence |
+| Follow-up | Record what still needs to be finished |
+
+## 10. Personal reflection (STAR) — draft for review
 
 <a id="personal-reflection"></a>
 

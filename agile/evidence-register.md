@@ -5,8 +5,6 @@ description: "Original AquaLink material, attribution and individual verificatio
 permalink: /agile/evidence-register/
 ---
 
-[← Agile hub]({{ '/agile/' | relative_url }})
-
 ## Evidence inventory
 
 The CPUT PRP assessment awards equal marks to **evidence** and **personal reflection** for five Agile artefacts. This register separates source-derived material from personal claims.
@@ -24,6 +22,19 @@ The CPUT PRP assessment awards equal marks to **evidence** and **personal reflec
 | Project app screenshots | [Mologadi's original images](https://github.com/MologadiD/Portfolio/tree/main/assets/img) | Screenshots attributed to the team |
 | Source planning summary | [Faith's Agile portfolio](https://github.com/FaithA965/FaithA965.github.io/blob/main/agile.md) | Team roster, initial sprint chronology and documented requirements |
 | Team board | [AquaLink Trello](https://trello.com/b/5lxVBUSK/aqualink) | Direct source link; detailed authorised card history is not available here |
+
+## The later shared logbook and backlog records
+
+Tony's public repository contains a broader dated development record that is valuable **as team context**:
+
+| Source | What it supports | What it does not prove |
+|---|---|---|
+| [Original AquaLink Agile Logbook (Word)](https://github.com/TonyBaloyi/Portfolio/blob/main/evidence/documents/AquaLink_Agile_Logbook.docx) | Team-reported work from 27 July to 29 October, impediments and remaining tasks | My personal daily activity on those dates |
+| [Tony's Product Backlog](https://github.com/TonyBaloyi/Portfolio/blob/main/product-backlog.md) | Priority labels and reported completed UI/planning work | Individually attributed implementation |
+| [Tony's Sprint Backlog](https://github.com/TonyBaloyi/Portfolio/blob/main/sprint-backlog.md) | Extended recorded workstreams and roadmap discussion | An exact verified eleven-sprint assignment history |
+| [Tony's Trello evidence](https://github.com/TonyBaloyi/Portfolio/tree/main/evidence/trello) | Additional archived views of the team's board | Final completion or authorship of each card |
+
+The team's original charter materials and later individual accounts use different role descriptions for Tony. This portfolio uses [Faith's published original role table](https://github.com/FaithA965/FaithA965.github.io/blob/main/agile.md) for the team roster and explicitly attributes Tony's later first-person observations to him.
 
 ## What can and cannot be asserted
 
